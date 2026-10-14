@@ -1,0 +1,120 @@
+name: GD-C1.0 historical pilot
+
+on:
+  workflow_dispatch:
+    inputs:
+      start:
+        description: Pilot start (Pacific calendar date)
+        default: '2026-04-14'
+        required: true
+      end:
+        description: Pilot end (Pacific calendar date)
+        default: '2026-04-20'
+        required: true
+      full_if_ready:
+        description: Backfill six months only if pilot coverage passes
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths:
+      - 'backtest/**'
+      - '.github/workflows/backtest.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gd-historical-backtest
+  cancel-in-progress: false
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      PILOT_START: ${{ inputs.start || '2026-04-14' }}
+      PILOT_END: ${{ inputs.end || '2026-04-20' }}
+      FULL_IF_READY: ${{ github.event_name == 'push' || inputs.full_if_ready }}
+      CC: gcc
+      CXX: g++
+      LDSHARED: gcc -shared
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify pipeline integrity tests
+        run: python3 -m unittest discover -s backtest -p 'test_*.py' -v
+      - uses: actions/cache@v4
+        with:
+          path: .backtest-cache
+          key: gd-bt1-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: gd-bt1-${{ runner.os }}-
+      - name: Build pinned Swiss Ephemeris source and verify ephemerides
+        run: |
+          mkdir -p .runtime/ephe
+          python3 -m pip download pyswisseph==2.10.3.2 --no-deps --no-binary :all: -d .runtime
+          echo 'c54c305e83dbd5d2b71e58d8a69d8ee41de24c4d3328ce09e2af860a3537624d  .runtime/pyswisseph-2.10.3.2.tar.gz' | sha256sum -c -
+          tar -xzf .runtime/pyswisseph-2.10.3.2.tar.gz -C .runtime
+          cd .runtime/pyswisseph-2.10.3.2
+          python3 setup.py build_ext --inplace
+          cp libswe/sefstars.txt ../ephe/sefstars.txt
+          cd ../..
+          for f in sepl_18.se1 semo_18.se1 seas_18.se1; do
+            curl --fail --retry 3 --max-time 120 -L "https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/$f" -o ".runtime/ephe/$f"
+          done
+          echo 'ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66  .runtime/ephe/sepl_18.se1' | sha256sum -c -
+          echo '1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7  .runtime/ephe/semo_18.se1' | sha256sum -c -
+          echo 'a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2  .runtime/ephe/seas_18.se1' | sha256sum -c -
+          echo '0690ba0d0056d134f586e2175fff75c7d0f4410333c0c48fc61fc50493eab256  .runtime/ephe/sefstars.txt' | sha256sum -c -
+          echo "GD_SWE_PATH=$GITHUB_WORKSPACE/.runtime/pyswisseph-2.10.3.2" >> "$GITHUB_ENV"
+          echo "GD_EPHE=$GITHUB_WORKSPACE/.runtime/ephe" >> "$GITHUB_ENV"
+      - name: Pilot collection, outcome-blind replay and locked scoring
+        run: |
+          out="data/backtest/${PILOT_START}_${PILOT_END}"
+          mkdir -p "$out" .backtest-cache
+          ln -s "$GITHUB_WORKSPACE/.backtest-cache" "$out/raw"
+          python3 backtest/collect.py --start "$PILOT_START" --end "$PILOT_END" --out "$out"
+          python3 backtest/replay.py "$out"
+          python3 backtest/score.py "$out"
+      - name: Six-month expansion gate
+        run: |
+          python3 - <<'PY'
+          import json,os,subprocess
+          from pathlib import Path
+          folder=Path('data/backtest')/(os.environ['PILOT_START']+'_'+os.environ['PILOT_END'])
+          ready=json.loads((folder/'summary.json').read_text())['full_period_ready']
+          if not ready:
+              print('Six-month scoring withheld: pilot coverage gaps. Read summary.json/report.html.')
+          elif os.environ['FULL_IF_READY'].lower()=='true':
+              full=Path('data/backtest/2026-04-14_2026-10-13'); full.mkdir(parents=True,exist_ok=True)
+              (full/'raw').symlink_to(Path('.backtest-cache').resolve())
+              subprocess.run(['python3','backtest/collect.py','--start','2026-04-14','--end','2026-10-13','--out',str(full)],check=True)
+              subprocess.run(['python3','backtest/replay.py',str(full)],check=True)
+              subprocess.run(['python3','backtest/score.py',str(full)],check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gd-backtest-${{ github.run_id }}
+          path: |
+            data/backtest/
+            .backtest-cache/
+          include-hidden-files: true
+          retention-days: 90
+      - name: Publish compact relay results
+        if: always()
+        run: |
+          git config user.name gd-backtest-bot
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find data/backtest -type l -name raw -delete
+          git add data/backtest
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: retrospective GD-C1.0 pilot (separate from prospective log)'
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash
+            if git push; then exit 0; fi
+            sleep 3
+          done
+          exit 1
