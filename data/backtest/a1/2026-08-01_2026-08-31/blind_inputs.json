@@ -3444,21 +3444,42 @@
     },
     "cutoff_utc": "2026-08-01T13:00:00+00:00",
     "day": "2026-08-01",
-    "id": "mlb-ESPN-401816347",
+    "id": "KXMLBGAME-26AUG011915AZCLE",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "29": {
+        "as_of_utc": "2026-08-01T13:00:00+00:00",
+        "ask": 0.42,
+        "bid": 0.41,
+        "created_time": "2026-07-29T23:15:41.991065Z",
+        "market_ticker": "KXMLBGAME-26AUG011915AZCLE-AZ",
+        "mid": 0.415,
+        "open_time": "2026-07-29T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Cleveland professional baseball game originally scheduled for Aug 1, 2026 at 7:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "5": {
+        "as_of_utc": "2026-08-01T13:00:00+00:00",
+        "ask": 0.6,
+        "bid": 0.59,
+        "created_time": "2026-07-29T23:15:41.991065Z",
+        "market_ticker": "KXMLBGAME-26AUG011915AZCLE-CLE",
+        "mid": 0.595,
+        "open_time": "2026-07-29T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Cleveland wins the Arizona vs Cleveland professional baseball game originally scheduled for Aug 1, 2026 at 7:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-07-29T23:15:41.991065+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816347",
     "sport": "mlb",
     "start_utc": "2026-08-01T23:15Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -4417,21 +4438,42 @@
     },
     "cutoff_utc": "2026-08-02T13:00:00+00:00",
     "day": "2026-08-02",
-    "id": "mlb-ESPN-401816362",
+    "id": "KXMLBGAME-26AUG021340AZCLE",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "29": {
+        "as_of_utc": "2026-08-02T13:00:00+00:00",
+        "ask": 0.41,
+        "bid": 0.4,
+        "created_time": "2026-07-30T17:45:33.160816Z",
+        "market_ticker": "KXMLBGAME-26AUG021340AZCLE-AZ",
+        "mid": 0.405,
+        "open_time": "2026-07-30T17:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Cleveland professional baseball game originally scheduled for Aug 2, 2026 at 1:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "5": {
+        "as_of_utc": "2026-08-02T13:00:00+00:00",
+        "ask": 0.6,
+        "bid": 0.59,
+        "created_time": "2026-07-30T17:45:33.160816Z",
+        "market_ticker": "KXMLBGAME-26AUG021340AZCLE-CLE",
+        "mid": 0.595,
+        "open_time": "2026-07-30T17:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Cleveland wins the Arizona vs Cleveland professional baseball game originally scheduled for Aug 2, 2026 at 1:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-07-30T17:45:33.160816+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816362",
     "sport": "mlb",
     "start_utc": "2026-08-02T17:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -6125,21 +6167,42 @@
     },
     "cutoff_utc": "2026-08-03T13:00:00+00:00",
     "day": "2026-08-03",
-    "id": "mlb-ESPN-401815079",
+    "id": "KXMLBGAME-26AUG032140SDAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "25": {
+        "as_of_utc": "2026-08-03T13:00:00+00:00",
+        "ask": 0.49,
+        "bid": 0.48,
+        "created_time": "2026-08-01T01:45:37.920097Z",
+        "market_ticker": "KXMLBGAME-26AUG032140SDAZ-SD",
+        "mid": 0.485,
+        "open_time": "2026-08-01T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If San Diego wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 3, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-03T13:00:00+00:00",
+        "ask": 0.52,
+        "bid": 0.51,
+        "created_time": "2026-08-01T01:45:37.920097Z",
+        "market_ticker": "KXMLBGAME-26AUG032140SDAZ-AZ",
+        "mid": 0.515,
+        "open_time": "2026-08-01T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 3, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-01T01:45:37.920097+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401815079",
     "sport": "mlb",
     "start_utc": "2026-08-04T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -7462,21 +7525,42 @@
     },
     "cutoff_utc": "2026-08-04T13:00:00+00:00",
     "day": "2026-08-04",
-    "id": "mlb-ESPN-401816398",
+    "id": "KXMLBGAME-26AUG042140SDAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "25": {
+        "as_of_utc": "2026-08-04T13:00:00+00:00",
+        "ask": 0.45,
+        "bid": 0.44,
+        "created_time": "2026-08-02T01:45:38.40868Z",
+        "market_ticker": "KXMLBGAME-26AUG042140SDAZ-SD",
+        "mid": 0.445,
+        "open_time": "2026-08-02T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If San Diego wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 4, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-04T13:00:00+00:00",
+        "ask": 0.56,
+        "bid": 0.55,
+        "created_time": "2026-08-02T01:45:38.40868Z",
+        "market_ticker": "KXMLBGAME-26AUG042140SDAZ-AZ",
+        "mid": 0.555,
+        "open_time": "2026-08-02T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 4, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-02T01:45:38.408680+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816398",
     "sport": "mlb",
     "start_utc": "2026-08-05T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -8813,21 +8897,42 @@
     },
     "cutoff_utc": "2026-08-05T13:00:00+00:00",
     "day": "2026-08-05",
-    "id": "mlb-ESPN-401816413",
+    "id": "KXMLBGAME-26AUG052140SDAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "25": {
+        "as_of_utc": "2026-08-05T13:00:00+00:00",
+        "ask": 0.54,
+        "bid": 0.53,
+        "created_time": "2026-08-03T01:45:33.050759Z",
+        "market_ticker": "KXMLBGAME-26AUG052140SDAZ-SD",
+        "mid": 0.535,
+        "open_time": "2026-08-03T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If San Diego wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 5, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-05T13:00:00+00:00",
+        "ask": 0.47,
+        "bid": 0.46,
+        "created_time": "2026-08-03T01:45:33.050759Z",
+        "market_ticker": "KXMLBGAME-26AUG052140SDAZ-AZ",
+        "mid": 0.46499999999999997,
+        "open_time": "2026-08-03T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 5, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-03T01:45:33.050759+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816413",
     "sport": "mlb",
     "start_utc": "2026-08-06T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -9794,21 +9899,42 @@
     },
     "cutoff_utc": "2026-08-06T13:00:00+00:00",
     "day": "2026-08-06",
-    "id": "mlb-ESPN-401816423",
+    "id": "KXMLBGAME-26AUG062140SDAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "25": {
+        "as_of_utc": "2026-08-06T13:00:00+00:00",
+        "ask": 0.5,
+        "bid": 0.49,
+        "created_time": "2026-08-04T01:45:39.683553Z",
+        "market_ticker": "KXMLBGAME-26AUG062140SDAZ-SD",
+        "mid": 0.495,
+        "open_time": "2026-08-04T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If San Diego wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 6, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-06T13:00:00+00:00",
+        "ask": 0.51,
+        "bid": 0.5,
+        "created_time": "2026-08-04T01:45:39.683553Z",
+        "market_ticker": "KXMLBGAME-26AUG062140SDAZ-AZ",
+        "mid": 0.505,
+        "open_time": "2026-08-04T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the San Diego vs Arizona professional baseball game originally scheduled for Aug 6, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-04T01:45:39.683553+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816423",
     "sport": "mlb",
     "start_utc": "2026-08-07T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -10938,21 +11064,42 @@
     },
     "cutoff_utc": "2026-08-07T13:00:00+00:00",
     "day": "2026-08-07",
-    "id": "mlb-ESPN-401816437",
+    "id": "KXMLBGAME-26AUG072140LADAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "19": {
+        "as_of_utc": "2026-08-07T12:59:00+00:00",
+        "ask": 0.63,
+        "bid": 0.62,
+        "created_time": "2026-08-05T01:45:46.88906Z",
+        "market_ticker": "KXMLBGAME-26AUG072140LADAZ-LAD",
+        "mid": 0.625,
+        "open_time": "2026-08-05T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Los Angeles D wins the Los Angeles D vs Arizona professional baseball game originally scheduled for Aug 7, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-07T13:00:00+00:00",
+        "ask": 0.38,
+        "bid": 0.37,
+        "created_time": "2026-08-05T01:45:46.88906Z",
+        "market_ticker": "KXMLBGAME-26AUG072140LADAZ-AZ",
+        "mid": 0.375,
+        "open_time": "2026-08-05T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Los Angeles D vs Arizona professional baseball game originally scheduled for Aug 7, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-05T01:45:46.889060+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816437",
     "sport": "mlb",
     "start_utc": "2026-08-08T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -12366,21 +12513,42 @@
     },
     "cutoff_utc": "2026-08-08T13:00:00+00:00",
     "day": "2026-08-08",
-    "id": "mlb-ESPN-401816452",
+    "id": "KXMLBGAME-26AUG082010LADAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "19": {
+        "as_of_utc": "2026-08-08T13:00:00+00:00",
+        "ask": 0.63,
+        "bid": 0.62,
+        "created_time": "2026-08-06T00:15:37.753335Z",
+        "market_ticker": "KXMLBGAME-26AUG082010LADAZ-LAD",
+        "mid": 0.625,
+        "open_time": "2026-08-06T00:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Los Angeles D wins the Los Angeles D vs Arizona professional baseball game originally scheduled for Aug 8, 2026 at 8:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-08T12:59:00+00:00",
+        "ask": 0.38,
+        "bid": 0.37,
+        "created_time": "2026-08-06T00:15:37.753335Z",
+        "market_ticker": "KXMLBGAME-26AUG082010LADAZ-AZ",
+        "mid": 0.375,
+        "open_time": "2026-08-06T00:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Los Angeles D vs Arizona professional baseball game originally scheduled for Aug 8, 2026 at 8:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-06T00:15:37.753335+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816452",
     "sport": "mlb",
     "start_utc": "2026-08-09T00:10Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -13608,21 +13776,42 @@
     },
     "cutoff_utc": "2026-08-09T13:00:00+00:00",
     "day": "2026-08-09",
-    "id": "mlb-ESPN-401816467",
+    "id": "KXMLBGAME-26AUG091610LADAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "19": {
+        "as_of_utc": "2026-08-09T13:00:00+00:00",
+        "ask": 0.58,
+        "bid": 0.57,
+        "created_time": "2026-08-06T20:15:43.819673Z",
+        "market_ticker": "KXMLBGAME-26AUG091610LADAZ-LAD",
+        "mid": 0.575,
+        "open_time": "2026-08-06T20:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Los Angeles D wins the Los Angeles D vs Arizona professional baseball game originally scheduled for Aug 9, 2026 at 4:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-09T13:00:00+00:00",
+        "ask": 0.43,
+        "bid": 0.42,
+        "created_time": "2026-08-06T20:15:43.819673Z",
+        "market_ticker": "KXMLBGAME-26AUG091610LADAZ-AZ",
+        "mid": 0.425,
+        "open_time": "2026-08-06T20:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Los Angeles D vs Arizona professional baseball game originally scheduled for Aug 9, 2026 at 4:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-06T20:15:43.819673+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816467",
     "sport": "mlb",
     "start_utc": "2026-08-09T20:10Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -14312,21 +14501,42 @@
     },
     "cutoff_utc": "2026-08-10T13:00:00+00:00",
     "day": "2026-08-10",
-    "id": "mlb-ESPN-401816473",
+    "id": "KXMLBGAME-26AUG102140COLAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "27": {
+        "as_of_utc": "2026-08-10T13:00:00+00:00",
+        "ask": 0.38,
+        "bid": 0.37,
+        "created_time": "2026-08-08T01:45:43.997271Z",
+        "market_ticker": "KXMLBGAME-26AUG102140COLAZ-COL",
+        "mid": 0.375,
+        "open_time": "2026-08-08T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Colorado wins the Colorado vs Arizona professional baseball game originally scheduled for Aug 10, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-10T12:59:00+00:00",
+        "ask": 0.63,
+        "bid": 0.62,
+        "created_time": "2026-08-08T01:45:43.997271Z",
+        "market_ticker": "KXMLBGAME-26AUG102140COLAZ-AZ",
+        "mid": 0.625,
+        "open_time": "2026-08-08T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Colorado vs Arizona professional baseball game originally scheduled for Aug 10, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-08T01:45:43.997271+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816473",
     "sport": "mlb",
     "start_utc": "2026-08-11T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -15645,21 +15855,42 @@
     },
     "cutoff_utc": "2026-08-11T13:00:00+00:00",
     "day": "2026-08-11",
-    "id": "mlb-ESPN-401816488",
+    "id": "KXMLBGAME-26AUG112140COLAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "27": {
+        "as_of_utc": "2026-08-11T12:59:00+00:00",
+        "ask": 0.38,
+        "bid": 0.37,
+        "created_time": "2026-08-09T01:45:45.177499Z",
+        "market_ticker": "KXMLBGAME-26AUG112140COLAZ-COL",
+        "mid": 0.375,
+        "open_time": "2026-08-09T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Colorado wins the Colorado vs Arizona professional baseball game originally scheduled for Aug 11, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-11T13:00:00+00:00",
+        "ask": 0.63,
+        "bid": 0.62,
+        "created_time": "2026-08-09T01:45:45.177499Z",
+        "market_ticker": "KXMLBGAME-26AUG112140COLAZ-AZ",
+        "mid": 0.625,
+        "open_time": "2026-08-09T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Colorado vs Arizona professional baseball game originally scheduled for Aug 11, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-09T01:45:45.177499+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816488",
     "sport": "mlb",
     "start_utc": "2026-08-12T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -16334,21 +16565,42 @@
     },
     "cutoff_utc": "2026-08-12T13:00:00+00:00",
     "day": "2026-08-12",
-    "id": "mlb-ESPN-401816503",
+    "id": "KXMLBGAME-26AUG121540COLAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "27": {
+        "as_of_utc": "2026-08-12T13:00:00+00:00",
+        "ask": 0.39,
+        "bid": 0.37,
+        "created_time": "2026-08-09T19:45:47.155556Z",
+        "market_ticker": "KXMLBGAME-26AUG121540COLAZ-COL",
+        "mid": 0.38,
+        "open_time": "2026-08-09T19:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Colorado wins the Colorado vs Arizona professional baseball game originally scheduled for Aug 12, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-12T13:00:00+00:00",
+        "ask": 0.63,
+        "bid": 0.62,
+        "created_time": "2026-08-09T19:45:47.155556Z",
+        "market_ticker": "KXMLBGAME-26AUG121540COLAZ-AZ",
+        "mid": 0.625,
+        "open_time": "2026-08-09T19:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Colorado vs Arizona professional baseball game originally scheduled for Aug 12, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-09T19:45:47.155556+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816503",
     "sport": "mlb",
     "start_utc": "2026-08-12T19:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -18882,21 +19134,42 @@
     },
     "cutoff_utc": "2026-08-14T13:00:00+00:00",
     "day": "2026-08-14",
-    "id": "mlb-ESPN-401816517",
+    "id": "KXMLBGAME-26AUG141915AZATL",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "15": {
+        "as_of_utc": "2026-08-14T13:00:00+00:00",
+        "ask": 0.66,
+        "bid": 0.65,
+        "created_time": "2026-08-11T23:15:41.562319Z",
+        "market_ticker": "KXMLBGAME-26AUG141915AZATL-ATL",
+        "mid": 0.655,
+        "open_time": "2026-08-11T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Atlanta wins the Arizona vs Atlanta professional baseball game originally scheduled for Aug 14, 2026 at 7:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-14T13:00:00+00:00",
+        "ask": 0.36,
+        "bid": 0.35,
+        "created_time": "2026-08-11T23:15:41.562319Z",
+        "market_ticker": "KXMLBGAME-26AUG141915AZATL-AZ",
+        "mid": 0.355,
+        "open_time": "2026-08-11T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Atlanta professional baseball game originally scheduled for Aug 14, 2026 at 7:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-11T23:15:41.562319+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816517",
     "sport": "mlb",
     "start_utc": "2026-08-14T23:15Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -20389,21 +20662,42 @@
     },
     "cutoff_utc": "2026-08-15T13:00:00+00:00",
     "day": "2026-08-15",
-    "id": "mlb-ESPN-401816532",
+    "id": "KXMLBGAME-26AUG151915AZATL",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "15": {
+        "as_of_utc": "2026-08-15T13:00:00+00:00",
+        "ask": 0.56,
+        "bid": 0.55,
+        "created_time": "2026-08-12T23:15:37.183081Z",
+        "market_ticker": "KXMLBGAME-26AUG151915AZATL-ATL",
+        "mid": 0.555,
+        "open_time": "2026-08-12T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Atlanta wins the Arizona vs Atlanta professional baseball game originally scheduled for Aug 15, 2026 at 7:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-15T13:00:00+00:00",
+        "ask": 0.44,
+        "bid": 0.43,
+        "created_time": "2026-08-12T23:15:37.183081Z",
+        "market_ticker": "KXMLBGAME-26AUG151915AZATL-AZ",
+        "mid": 0.435,
+        "open_time": "2026-08-12T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Atlanta professional baseball game originally scheduled for Aug 15, 2026 at 7:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-12T23:15:37.183081+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816532",
     "sport": "mlb",
     "start_utc": "2026-08-15T23:15Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -20907,21 +21201,42 @@
     },
     "cutoff_utc": "2026-08-16T13:00:00+00:00",
     "day": "2026-08-16",
-    "id": "mlb-ESPN-401816547",
+    "id": "KXMLBGAME-26AUG161335AZATL",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "15": {
+        "as_of_utc": "2026-08-16T13:00:00+00:00",
+        "ask": 0.54,
+        "bid": 0.53,
+        "created_time": "2026-08-13T17:45:49.89967Z",
+        "market_ticker": "KXMLBGAME-26AUG161335AZATL-ATL",
+        "mid": 0.535,
+        "open_time": "2026-08-13T17:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Atlanta wins the Arizona vs Atlanta professional baseball game originally scheduled for Aug 16, 2026 at 1:35 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-16T13:00:00+00:00",
+        "ask": 0.47,
+        "bid": 0.46,
+        "created_time": "2026-08-13T17:45:49.89967Z",
+        "market_ticker": "KXMLBGAME-26AUG161335AZATL-AZ",
+        "mid": 0.46499999999999997,
+        "open_time": "2026-08-13T17:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Atlanta professional baseball game originally scheduled for Aug 16, 2026 at 1:35 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-13T17:45:49.899670+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816547",
     "sport": "mlb",
     "start_utc": "2026-08-16T17:35Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -22565,21 +22880,42 @@
     },
     "cutoff_utc": "2026-08-17T13:00:00+00:00",
     "day": "2026-08-17",
-    "id": "mlb-ESPN-401816562",
+    "id": "KXMLBGAME-26AUG171910AZBOS",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "2": {
+        "as_of_utc": "2026-08-17T12:59:00+00:00",
+        "ask": 0.58,
+        "bid": 0.57,
+        "created_time": "2026-08-14T23:15:49.121337Z",
+        "market_ticker": "KXMLBGAME-26AUG171910AZBOS-BOS",
+        "mid": 0.575,
+        "open_time": "2026-08-14T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Boston wins the Arizona vs Boston professional baseball game originally scheduled for Aug 17, 2026 at 7:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-17T12:59:00+00:00",
+        "ask": 0.43,
+        "bid": 0.42,
+        "created_time": "2026-08-14T23:15:49.121337Z",
+        "market_ticker": "KXMLBGAME-26AUG171910AZBOS-AZ",
+        "mid": 0.425,
+        "open_time": "2026-08-14T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Boston professional baseball game originally scheduled for Aug 17, 2026 at 7:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-14T23:15:49.121337+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816562",
     "sport": "mlb",
     "start_utc": "2026-08-17T23:10Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -23637,21 +23973,42 @@
     },
     "cutoff_utc": "2026-08-18T13:00:00+00:00",
     "day": "2026-08-18",
-    "id": "mlb-ESPN-401816571",
+    "id": "KXMLBGAME-26AUG181910AZBOS",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "2": {
+        "as_of_utc": "2026-08-18T12:59:00+00:00",
+        "ask": 0.62,
+        "bid": 0.61,
+        "created_time": "2026-08-15T23:15:45.735562Z",
+        "market_ticker": "KXMLBGAME-26AUG181910AZBOS-BOS",
+        "mid": 0.615,
+        "open_time": "2026-08-15T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Boston wins the Arizona vs Boston professional baseball game originally scheduled for Aug 18, 2026 at 7:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-18T13:00:00+00:00",
+        "ask": 0.39,
+        "bid": 0.38,
+        "created_time": "2026-08-15T23:15:45.735562Z",
+        "market_ticker": "KXMLBGAME-26AUG181910AZBOS-AZ",
+        "mid": 0.385,
+        "open_time": "2026-08-15T23:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Boston professional baseball game originally scheduled for Aug 18, 2026 at 7:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-15T23:15:45.735562+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816571",
     "sport": "mlb",
     "start_utc": "2026-08-18T23:10Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -24790,21 +25147,42 @@
     },
     "cutoff_utc": "2026-08-19T13:00:00+00:00",
     "day": "2026-08-19",
-    "id": "mlb-ESPN-401816586",
+    "id": "KXMLBGAME-26AUG191610AZBOS",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "2": {
+        "as_of_utc": "2026-08-19T13:00:00+00:00",
+        "ask": 0.59,
+        "bid": 0.58,
+        "created_time": "2026-08-16T20:15:34.587229Z",
+        "market_ticker": "KXMLBGAME-26AUG191610AZBOS-BOS",
+        "mid": 0.585,
+        "open_time": "2026-08-16T20:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Boston wins the Arizona vs Boston professional baseball game originally scheduled for Aug 19, 2026 at 4:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-19T12:59:00+00:00",
+        "ask": 0.42,
+        "bid": 0.41,
+        "created_time": "2026-08-16T20:15:34.587229Z",
+        "market_ticker": "KXMLBGAME-26AUG191610AZBOS-AZ",
+        "mid": 0.415,
+        "open_time": "2026-08-16T20:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs Boston professional baseball game originally scheduled for Aug 19, 2026 at 4:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-16T20:15:34.587229+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816586",
     "sport": "mlb",
     "start_utc": "2026-08-19T20:10Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -27558,21 +27936,42 @@
     },
     "cutoff_utc": "2026-08-21T13:00:00+00:00",
     "day": "2026-08-21",
-    "id": "mlb-ESPN-401816622",
+    "id": "KXMLBGAME-26AUG212140CINAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "17": {
+        "as_of_utc": "2026-08-21T13:00:00+00:00",
+        "ask": 0.42,
+        "bid": 0.41,
+        "created_time": "2026-08-19T01:45:43.607722Z",
+        "market_ticker": "KXMLBGAME-26AUG212140CINAZ-CIN",
+        "mid": 0.415,
+        "open_time": "2026-08-19T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Cincinnati wins the Cincinnati vs Arizona professional baseball game originally scheduled for Aug 21, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-21T13:00:00+00:00",
+        "ask": 0.59,
+        "bid": 0.58,
+        "created_time": "2026-08-19T01:45:43.607722Z",
+        "market_ticker": "KXMLBGAME-26AUG212140CINAZ-AZ",
+        "mid": 0.585,
+        "open_time": "2026-08-19T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Cincinnati vs Arizona professional baseball game originally scheduled for Aug 21, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-19T01:45:43.607722+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816622",
     "sport": "mlb",
     "start_utc": "2026-08-22T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -29078,21 +29477,42 @@
     },
     "cutoff_utc": "2026-08-22T13:00:00+00:00",
     "day": "2026-08-22",
-    "id": "mlb-ESPN-401816637",
+    "id": "KXMLBGAME-26AUG222010CINAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "17": {
+        "as_of_utc": "2026-08-22T13:00:00+00:00",
+        "ask": 0.39,
+        "bid": 0.38,
+        "created_time": "2026-08-20T00:18:49.468333Z",
+        "market_ticker": "KXMLBGAME-26AUG222010CINAZ-CIN",
+        "mid": 0.385,
+        "open_time": "2026-08-20T00:28:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Cincinnati wins the Cincinnati vs Arizona professional baseball game originally scheduled for Aug 22, 2026 at 8:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-22T13:00:00+00:00",
+        "ask": 0.62,
+        "bid": 0.61,
+        "created_time": "2026-08-20T00:18:49.468333Z",
+        "market_ticker": "KXMLBGAME-26AUG222010CINAZ-AZ",
+        "mid": 0.615,
+        "open_time": "2026-08-20T00:28:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Cincinnati vs Arizona professional baseball game originally scheduled for Aug 22, 2026 at 8:10 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-20T00:18:49.468333+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816637",
     "sport": "mlb",
     "start_utc": "2026-08-23T00:10Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -30419,21 +30839,42 @@
     },
     "cutoff_utc": "2026-08-23T13:00:00+00:00",
     "day": "2026-08-23",
-    "id": "mlb-ESPN-401816652",
+    "id": "KXMLBGAME-26AUG231615CINAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "17": {
+        "as_of_utc": "2026-08-23T13:00:00+00:00",
+        "ask": 0.45,
+        "bid": 0.44,
+        "created_time": "2026-08-20T20:15:47.477376Z",
+        "market_ticker": "KXMLBGAME-26AUG231615CINAZ-CIN",
+        "mid": 0.445,
+        "open_time": "2026-08-20T20:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Cincinnati wins the Cincinnati vs Arizona professional baseball game originally scheduled for Aug 23, 2026 at 4:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-23T13:00:00+00:00",
+        "ask": 0.56,
+        "bid": 0.55,
+        "created_time": "2026-08-20T20:15:47.477376Z",
+        "market_ticker": "KXMLBGAME-26AUG231615CINAZ-AZ",
+        "mid": 0.555,
+        "open_time": "2026-08-20T20:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Cincinnati vs Arizona professional baseball game originally scheduled for Aug 23, 2026 at 4:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-20T20:15:47.477376+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816652",
     "sport": "mlb",
     "start_utc": "2026-08-23T20:15Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -31042,21 +31483,42 @@
     },
     "cutoff_utc": "2026-08-24T13:00:00+00:00",
     "day": "2026-08-24",
-    "id": "mlb-ESPN-401816659",
+    "id": "KXMLBGAME-26AUG242140CHCAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "16": {
+        "as_of_utc": "2026-08-24T13:00:00+00:00",
+        "ask": 0.57,
+        "bid": 0.56,
+        "created_time": "2026-08-22T01:45:42.344492Z",
+        "market_ticker": "KXMLBGAME-26AUG242140CHCAZ-CHC",
+        "mid": 0.565,
+        "open_time": "2026-08-22T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Chicago C wins the Chicago C vs Arizona professional baseball game originally scheduled for Aug 24, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-24T13:00:00+00:00",
+        "ask": 0.44,
+        "bid": 0.43,
+        "created_time": "2026-08-22T01:45:42.344492Z",
+        "market_ticker": "KXMLBGAME-26AUG242140CHCAZ-AZ",
+        "mid": 0.435,
+        "open_time": "2026-08-22T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Chicago C vs Arizona professional baseball game originally scheduled for Aug 24, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-22T01:45:42.344492+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816659",
     "sport": "mlb",
     "start_utc": "2026-08-25T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -32371,21 +32833,42 @@
     },
     "cutoff_utc": "2026-08-25T13:00:00+00:00",
     "day": "2026-08-25",
-    "id": "mlb-ESPN-401816674",
+    "id": "KXMLBGAME-26AUG252140CHCAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "16": {
+        "as_of_utc": "2026-08-25T13:00:00+00:00",
+        "ask": 0.51,
+        "bid": 0.5,
+        "created_time": "2026-08-23T01:45:51.447116Z",
+        "market_ticker": "KXMLBGAME-26AUG252140CHCAZ-CHC",
+        "mid": 0.505,
+        "open_time": "2026-08-23T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Chicago C wins the Chicago C vs Arizona professional baseball game originally scheduled for Aug 25, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-25T13:00:00+00:00",
+        "ask": 0.5,
+        "bid": 0.49,
+        "created_time": "2026-08-23T01:45:51.447116Z",
+        "market_ticker": "KXMLBGAME-26AUG252140CHCAZ-AZ",
+        "mid": 0.495,
+        "open_time": "2026-08-23T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Chicago C vs Arizona professional baseball game originally scheduled for Aug 25, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-23T01:45:51.447116+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816674",
     "sport": "mlb",
     "start_utc": "2026-08-26T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -32888,21 +33371,42 @@
     },
     "cutoff_utc": "2026-08-26T13:00:00+00:00",
     "day": "2026-08-26",
-    "id": "mlb-ESPN-401816689",
+    "id": "KXMLBGAME-26AUG261540CHCAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "16": {
+        "as_of_utc": "2026-08-26T13:00:00+00:00",
+        "ask": 0.51,
+        "bid": 0.5,
+        "created_time": "2026-08-23T19:45:39.098882Z",
+        "market_ticker": "KXMLBGAME-26AUG261540CHCAZ-CHC",
+        "mid": 0.505,
+        "open_time": "2026-08-23T19:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Chicago C wins the Chicago C vs Arizona professional baseball game originally scheduled for Aug 26, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-26T13:00:00+00:00",
+        "ask": 0.51,
+        "bid": 0.5,
+        "created_time": "2026-08-23T19:45:39.098882Z",
+        "market_ticker": "KXMLBGAME-26AUG261540CHCAZ-AZ",
+        "mid": 0.505,
+        "open_time": "2026-08-23T19:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Chicago C vs Arizona professional baseball game originally scheduled for Aug 26, 2026 at 3:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-23T19:45:39.098882+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816689",
     "sport": "mlb",
     "start_utc": "2026-08-26T19:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -34647,22 +35151,43 @@
   {
     "cutoff_utc": "2026-08-27T13:00:00+00:00",
     "day": "2026-08-27",
-    "id": "mlb-ESPN-401816701",
+    "id": "KXMLBGAME-26AUG272145AZSF",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
       "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match",
       "verified_venue_coordinates"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "26": {
+        "as_of_utc": "2026-08-27T12:59:00+00:00",
+        "ask": 0.5,
+        "bid": 0.49,
+        "created_time": "2026-08-25T01:45:41.984784Z",
+        "market_ticker": "KXMLBGAME-26AUG272145AZSF-SF",
+        "mid": 0.495,
+        "open_time": "2026-08-25T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If San Francisco wins the Arizona vs San Francisco professional baseball game originally scheduled for Aug 27, 2026 at 9:45 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-27T13:00:00+00:00",
+        "ask": 0.5,
+        "bid": 0.49,
+        "created_time": "2026-08-25T01:45:41.984784Z",
+        "market_ticker": "KXMLBGAME-26AUG272145AZSF-AZ",
+        "mid": 0.495,
+        "open_time": "2026-08-25T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs San Francisco professional baseball game originally scheduled for Aug 27, 2026 at 9:45 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-25T01:45:41.984784+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816701",
     "sport": "mlb",
     "start_utc": "2026-08-28T01:45Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -35976,22 +36501,43 @@
   {
     "cutoff_utc": "2026-08-28T13:00:00+00:00",
     "day": "2026-08-28",
-    "id": "mlb-ESPN-401816714",
+    "id": "KXMLBGAME-26AUG282215AZSF",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
       "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match",
       "verified_venue_coordinates"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "26": {
+        "as_of_utc": "2026-08-28T13:00:00+00:00",
+        "ask": 0.47,
+        "bid": 0.46,
+        "created_time": "2026-08-26T02:15:42.619701Z",
+        "market_ticker": "KXMLBGAME-26AUG282215AZSF-SF",
+        "mid": 0.46499999999999997,
+        "open_time": "2026-08-26T02:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If San Francisco wins the Arizona vs San Francisco professional baseball game originally scheduled for Aug 28, 2026 at 10:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-28T12:57:00+00:00",
+        "ask": 0.54,
+        "bid": 0.53,
+        "created_time": "2026-08-26T02:15:42.619701Z",
+        "market_ticker": "KXMLBGAME-26AUG282215AZSF-AZ",
+        "mid": 0.535,
+        "open_time": "2026-08-26T02:25:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Arizona vs San Francisco professional baseball game originally scheduled for Aug 28, 2026 at 10:15 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-26T02:15:42.619701+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816714",
     "sport": "mlb",
     "start_utc": "2026-08-29T02:15Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
@@ -39761,21 +40307,42 @@
     },
     "cutoff_utc": "2026-08-31T13:00:00+00:00",
     "day": "2026-08-31",
-    "id": "mlb-ESPN-401816757",
+    "id": "KXMLBGAME-26AUG312140PHIAZ",
     "missing": [
-      "paired_quote_before_cutoff",
-      "timestamped_scheduled_start",
-      "timestamped_sportsbook_favorite",
-      "unambiguous_kalshi_event_match"
+      "timestamped_sportsbook_favorite"
     ],
-    "quotes": {},
-    "schedule_provenance": "current historical ESPN record; original morning version unavailable",
+    "quotes": {
+      "22": {
+        "as_of_utc": "2026-08-31T12:59:00+00:00",
+        "ask": 0.54,
+        "bid": 0.53,
+        "created_time": "2026-08-29T01:45:41.2332Z",
+        "market_ticker": "KXMLBGAME-26AUG312140PHIAZ-PHI",
+        "mid": 0.535,
+        "open_time": "2026-08-29T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Philadelphia wins the Philadelphia vs Arizona professional baseball game originally scheduled for Aug 31, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      },
+      "29": {
+        "as_of_utc": "2026-08-31T12:59:00+00:00",
+        "ask": 0.47,
+        "bid": 0.46,
+        "created_time": "2026-08-29T01:45:41.2332Z",
+        "market_ticker": "KXMLBGAME-26AUG312140PHIAZ-AZ",
+        "mid": 0.46499999999999997,
+        "open_time": "2026-08-29T01:55:00Z",
+        "provenance": "historical 1-minute candle close; depth unavailable",
+        "rules_primary": "If Arizona wins the Philadelphia vs Arizona professional baseball game originally scheduled for Aug 31, 2026 at 9:40 PM EDT, then the market resolves to Yes.",
+        "rules_provenance": "current market metadata; original rule version not guaranteed"
+      }
+    },
+    "schedule_provenance": "Kalshi event ticker HHMM (US/Eastern), event created 2026-08-29T01:45:41.233200+00:00; equals current ESPN start",
+    "schedule_verified_at_cutoff": true,
     "source_espn_id": "401816757",
     "sport": "mlb",
     "start_utc": "2026-09-01T01:40Z",
-    "structural_exclusions": [
-      "unambiguous_kalshi_event_match"
-    ],
+    "structural_exclusions": [],
     "syllable_rule": [
       "BT1.1-SYL-1"
     ],
