@@ -1,12 +1,12 @@
 {
   "annotations_sha256": "493d206e1b6c9d9c58895fb3789139cc1d715e93c764f7ffdd0ab9049afe8bec",
-  "blind_sha256": "1b14ece9374110692a081b3679283712676888e680f3376fe86a42ac35b8c42d",
+  "blind_sha256": "21b02f19d388ab9b892c5b34a775a78c8461633af8cf824088793624c1c17a44",
   "counts": {
     "KXMLBGAME_events": 225,
     "KXNBAGAME_events": 48,
     "KXNFLGAME_events": 0,
     "KXNHLGAME_events": 62,
-    "paired_quotes": 325,
+    "paired_quotes": 338,
     "scoreboard_games": 338
   },
   "end": "2026-04-30",
@@ -17,27 +17,10 @@
     "orders_updated_ts": "2026-09-30T00:00:00Z",
     "trades_created_ts": "2026-08-15T00:00:00Z"
   },
-  "outcomes_sha256": "2e08ad5ac5defef37abbdb8ad104754732e0026725115ae956874e6fee4fd853",
-  "retrieved_at_utc": "2026-10-14T13:19:14.478808+00:00",
+  "outcomes_sha256": "790b07003e22a1c711ddb5ffe0123380b7b78e5d4f2daf9828484d6a0ea5a1f1",
+  "retrieved_at_utc": "2026-10-14T13:49:26.448361+00:00",
   "sports": "mlb,nba,nhl,nfl",
   "start": "2026-04-14",
   "study_id": "GD-C1.0-BT1.1",
-  "study_sha256": "15c6e2a7e40e519a10fc6d29912532f04c15a1ed6dfd9f098ebe88e5a4e93253",
-  "unmatched_kalshi_events": {
-    "KXMLBGAME": [
-      "KXMLBGAME-26APR141835AZBAL",
-      "KXMLBGAME-26APR151235AZBAL",
-      "KXMLBGAME-26APR172140TORAZ",
-      "KXMLBGAME-26APR182010TORAZ",
-      "KXMLBGAME-26APR191610TORAZ",
-      "KXMLBGAME-26APR212140CWSAZ",
-      "KXMLBGAME-26APR222140CWSAZ",
-      "KXMLBGAME-26APR231540CWSAZ",
-      "KXMLBGAME-26APR251805SDAZ",
-      "KXMLBGAME-26APR261605SDAZ",
-      "KXMLBGAME-26APR281940AZMIL",
-      "KXMLBGAME-26APR291940AZMIL",
-      "KXMLBGAME-26APR301340AZMIL"
-    ]
-  }
+  "study_sha256": "15c6e2a7e40e519a10fc6d29912532f04c15a1ed6dfd9f098ebe88e5a4e93253"
 }
