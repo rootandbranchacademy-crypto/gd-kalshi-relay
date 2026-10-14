@@ -1,0 +1,3223 @@
+{
+ "frozen_before_predict": true,
+ "note": "Venues: ESPN venue id -> coordinates from the cited fetched page (verified=false entries are not used). Teams: BT1.1-SYL-1 declarations from canonical ESPN names only. Frozen and committed before predictions_a1.json was generated; no outcome file had been opened.",
+ "study_id": "GD-C1.0-BT-A1",
+ "teams": {
+  "mlb:1": {
+   "canonical_name": "Baltimore Orioles",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Baltimore": [
+     "ba",
+     "bo"
+    ],
+    "Orioles": [
+     "o"
+    ]
+   }
+  },
+  "mlb:10": {
+   "canonical_name": "New York Yankees",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "Yankees": [
+     "ya"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "mlb:11": {
+   "canonical_name": "Athletics",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Athletics": [
+     "a"
+    ]
+   }
+  },
+  "mlb:12": {
+   "canonical_name": "Seattle Mariners",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Mariners": [
+     "ma",
+     "me"
+    ],
+    "Seattle": [
+     "sa",
+     "se",
+     "si"
+    ]
+   }
+  },
+  "mlb:13": {
+   "canonical_name": "Texas Rangers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Rangers": [
+     "ra",
+     "re"
+    ],
+    "Texas": [
+     "te",
+     "te(r)"
+    ]
+   }
+  },
+  "mlb:14": {
+   "canonical_name": "Toronto Blue Jays",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Blue": [
+     "be",
+     "bu"
+    ],
+    "Jays": [
+     "ja",
+     "je"
+    ],
+    "Toronto": [
+     "ta",
+     "ta(r)",
+     "to",
+     "to(r)"
+    ]
+   }
+  },
+  "mlb:15": {
+   "canonical_name": "Atlanta Braves",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Atlanta": [
+     "a",
+     "u"
+    ],
+    "Braves": [
+     "ba",
+     "be"
+    ]
+   }
+  },
+  "mlb:16": {
+   "canonical_name": "Chicago Cubs",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Chicago": [
+     "ci(chi)",
+     "sha",
+     "shu"
+    ],
+    "Cubs": [
+     "ka",
+     "ku"
+    ]
+   }
+  },
+  "mlb:17": {
+   "canonical_name": "Cincinnati Reds",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Cincinnati": [
+     "si"
+    ],
+    "Reds": [
+     "re"
+    ]
+   }
+  },
+  "mlb:18": {
+   "canonical_name": "Houston Astros",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Astros": [
+     "a"
+    ],
+    "Houston": [
+     "ho",
+     "hu"
+    ]
+   }
+  },
+  "mlb:19": {
+   "canonical_name": "Los Angeles Dodgers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Angeles": [
+     "a"
+    ],
+    "Dodgers": [
+     "da",
+     "da(r)",
+     "da(retroflex)",
+     "do",
+     "do(r)"
+    ],
+    "Los": [
+     "lo"
+    ]
+   }
+  },
+  "mlb:2": {
+   "canonical_name": "Boston Red Sox",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Boston": [
+     "ba",
+     "bo"
+    ],
+    "Red": [
+     "re"
+    ],
+    "Sox": [
+     "sa",
+     "so"
+    ]
+   }
+  },
+  "mlb:20": {
+   "canonical_name": "Washington Nationals",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Nationals": [
+     "na",
+     "na(r)"
+    ],
+    "Washington": [
+     "va",
+     "vo"
+    ]
+   }
+  },
+  "mlb:21": {
+   "canonical_name": "New York Mets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Mets": [
+     "me"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "mlb:22": {
+   "canonical_name": "Philadelphia Phillies",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Philadelphia": [
+     "pi"
+    ],
+    "Phillies": [
+     "pi"
+    ]
+   }
+  },
+  "mlb:23": {
+   "canonical_name": "Pittsburgh Pirates",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Pirates": [
+     "pa",
+     "pe",
+     "pi"
+    ],
+    "Pittsburgh": [
+     "pi"
+    ]
+   }
+  },
+  "mlb:24": {
+   "canonical_name": "St. Louis Cardinals",
+   "notes": [
+    "no candidates for word 'St.'"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Cardinals": [
+     "ka",
+     "ko"
+    ],
+    "Louis": [
+     "lo",
+     "lu"
+    ]
+   }
+  },
+  "mlb:25": {
+   "canonical_name": "San Diego Padres",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Diego": [
+     "de",
+     "de(r)",
+     "di",
+     "di(r)"
+    ],
+    "Padres": [
+     "pa"
+    ],
+    "San": [
+     "sa"
+    ]
+   }
+  },
+  "mlb:26": {
+   "canonical_name": "San Francisco Giants",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Francisco": [
+     "pa",
+     "pha"
+    ],
+    "Giants": [
+     "ga",
+     "gi",
+     "ja",
+     "je"
+    ],
+    "San": [
+     "sa"
+    ]
+   }
+  },
+  "mlb:27": {
+   "canonical_name": "Colorado Rockies",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Colorado": [
+     "ka",
+     "ko"
+    ],
+    "Rockies": [
+     "ra",
+     "ro"
+    ]
+   }
+  },
+  "mlb:28": {
+   "canonical_name": "Miami Marlins",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Marlins": [
+     "ma",
+     "mo"
+    ],
+    "Miami": [
+     "ma",
+     "me",
+     "mi"
+    ]
+   }
+  },
+  "mlb:29": {
+   "canonical_name": "Arizona Diamondbacks",
+   "notes": [
+    "'Diamondbacks' not in CMUdict; spelling only"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Arizona": [
+     "a",
+     "e"
+    ],
+    "Diamondbacks": [
+     "da",
+     "da(r)",
+     "da(retroflex)",
+     "di",
+     "di(r)"
+    ]
+   }
+  },
+  "mlb:3": {
+   "canonical_name": "Los Angeles Angels",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Angeles": [
+     "a"
+    ],
+    "Angels": [
+     "a",
+     "e"
+    ],
+    "Los": [
+     "lo"
+    ]
+   }
+  },
+  "mlb:30": {
+   "canonical_name": "Tampa Bay Rays",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bay": [
+     "ba",
+     "be"
+    ],
+    "Rays": [
+     "ra",
+     "re"
+    ],
+    "Tampa": [
+     "ta",
+     "ta(r)"
+    ]
+   }
+  },
+  "mlb:31": {
+   "canonical_name": "American All-Stars",
+   "notes": [
+    "'All-Stars' not in CMUdict; spelling only"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "All-Stars": [
+     "a"
+    ],
+    "American": [
+     "a",
+     "u"
+    ]
+   }
+  },
+  "mlb:32": {
+   "canonical_name": "National All-Stars",
+   "notes": [
+    "'All-Stars' not in CMUdict; spelling only"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "All-Stars": [
+     "a"
+    ],
+    "National": [
+     "na",
+     "na(r)"
+    ]
+   }
+  },
+  "mlb:4": {
+   "canonical_name": "Chicago White Sox",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Chicago": [
+     "ci(chi)",
+     "sha",
+     "shu"
+    ],
+    "Sox": [
+     "sa",
+     "so"
+    ],
+    "White": [
+     "ha",
+     "he",
+     "va",
+     "ve",
+     "vi"
+    ]
+   }
+  },
+  "mlb:5": {
+   "canonical_name": "Cleveland Guardians",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Cleveland": [
+     "ki",
+     "se"
+    ],
+    "Guardians": [
+     "ga",
+     "go",
+     "gu"
+    ]
+   }
+  },
+  "mlb:6": {
+   "canonical_name": "Detroit Tigers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Detroit": [
+     "de",
+     "de(r)",
+     "di",
+     "di(r)"
+    ],
+    "Tigers": [
+     "ta",
+     "ta(r)",
+     "te",
+     "te(r)",
+     "ti",
+     "ti(r)"
+    ]
+   }
+  },
+  "mlb:7": {
+   "canonical_name": "Kansas City Royals",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "City": [
+     "si"
+    ],
+    "Kansas": [
+     "ka"
+    ],
+    "Royals": [
+     "ro"
+    ]
+   }
+  },
+  "mlb:8": {
+   "canonical_name": "Milwaukee Brewers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Brewers": [
+     "be",
+     "bu"
+    ],
+    "Milwaukee": [
+     "mi"
+    ]
+   }
+  },
+  "mlb:9": {
+   "canonical_name": "Minnesota Twins",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Minnesota": [
+     "mi"
+    ],
+    "Twins": [
+     "ti",
+     "ti(r)"
+    ]
+   }
+  },
+  "nba:1": {
+   "canonical_name": "Atlanta Hawks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Atlanta": [
+     "a",
+     "u"
+    ],
+    "Hawks": [
+     "ha",
+     "ho"
+    ]
+   }
+  },
+  "nba:10": {
+   "canonical_name": "Houston Rockets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Houston": [
+     "ho",
+     "hu"
+    ],
+    "Rockets": [
+     "ra",
+     "ro"
+    ]
+   }
+  },
+  "nba:11": {
+   "canonical_name": "Indiana Pacers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Indiana": [
+     "i"
+    ],
+    "Pacers": [
+     "pa",
+     "pe"
+    ]
+   }
+  },
+  "nba:12": {
+   "canonical_name": "LA Clippers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Clippers": [
+     "ki",
+     "si"
+    ],
+    "LA": [
+     "la",
+     "lo"
+    ]
+   }
+  },
+  "nba:13": {
+   "canonical_name": "Los Angeles Lakers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Angeles": [
+     "a"
+    ],
+    "Lakers": [
+     "la",
+     "le"
+    ],
+    "Los": [
+     "lo"
+    ]
+   }
+  },
+  "nba:134478": {
+   "canonical_name": "London Lions",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Lions": [
+     "la",
+     "le",
+     "li",
+     "lo"
+    ],
+    "London": [
+     "la",
+     "lo",
+     "lu"
+    ]
+   }
+  },
+  "nba:14": {
+   "canonical_name": "Miami Heat",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Heat": [
+     "ha",
+     "he",
+     "hi"
+    ],
+    "Miami": [
+     "ma",
+     "me",
+     "mi"
+    ]
+   }
+  },
+  "nba:15": {
+   "canonical_name": "Milwaukee Bucks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bucks": [
+     "ba",
+     "bu"
+    ],
+    "Milwaukee": [
+     "mi"
+    ]
+   }
+  },
+  "nba:16": {
+   "canonical_name": "Minnesota Timberwolves",
+   "notes": [
+    "'Timberwolves' not in CMUdict; spelling only"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Minnesota": [
+     "mi"
+    ],
+    "Timberwolves": [
+     "ti",
+     "ti(r)"
+    ]
+   }
+  },
+  "nba:17": {
+   "canonical_name": "Brooklyn Nets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Brooklyn": [
+     "bo",
+     "bu"
+    ],
+    "Nets": [
+     "ne"
+    ]
+   }
+  },
+  "nba:18": {
+   "canonical_name": "New York Knicks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Knicks": [
+     "ki",
+     "ni"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "nba:19": {
+   "canonical_name": "Orlando Magic",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Magic": [
+     "ma"
+    ],
+    "Orlando": [
+     "o"
+    ]
+   }
+  },
+  "nba:2": {
+   "canonical_name": "Boston Celtics",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Boston": [
+     "ba",
+     "bo"
+    ],
+    "Celtics": [
+     "se"
+    ]
+   }
+  },
+  "nba:20": {
+   "canonical_name": "Philadelphia 76ers",
+   "notes": [
+    "no candidates for word '76ers'"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Philadelphia": [
+     "pi"
+    ]
+   }
+  },
+  "nba:21": {
+   "canonical_name": "Phoenix Suns",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Phoenix": [
+     "pe",
+     "pi",
+     "po"
+    ],
+    "Suns": [
+     "sa",
+     "su"
+    ]
+   }
+  },
+  "nba:22": {
+   "canonical_name": "Portland Trail Blazers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Blazers": [
+     "ba",
+     "be"
+    ],
+    "Portland": [
+     "po"
+    ],
+    "Trail": [
+     "ta",
+     "ta(r)",
+     "te",
+     "te(r)",
+     "ti",
+     "ti(r)"
+    ]
+   }
+  },
+  "nba:23": {
+   "canonical_name": "Sacramento Kings",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Kings": [
+     "ki"
+    ],
+    "Sacramento": [
+     "sa"
+    ]
+   }
+  },
+  "nba:24": {
+   "canonical_name": "San Antonio Spurs",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Antonio": [
+     "a"
+    ],
+    "San": [
+     "sa"
+    ],
+    "Spurs": [
+     "sa",
+     "su"
+    ]
+   }
+  },
+  "nba:25": {
+   "canonical_name": "Oklahoma City Thunder",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "City": [
+     "si"
+    ],
+    "Oklahoma": [
+     "o"
+    ],
+    "Thunder": [
+     "ta",
+     "ta(r)",
+     "tha",
+     "tha(r)",
+     "tu",
+     "tu(r)"
+    ]
+   }
+  },
+  "nba:26": {
+   "canonical_name": "Utah Jazz",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Jazz": [
+     "ja"
+    ],
+    "Utah": [
+     "u",
+     "yu"
+    ]
+   }
+  },
+  "nba:27": {
+   "canonical_name": "Washington Wizards",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Washington": [
+     "va",
+     "vo"
+    ],
+    "Wizards": [
+     "vi"
+    ]
+   }
+  },
+  "nba:28": {
+   "canonical_name": "Toronto Raptors",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Raptors": [
+     "ra"
+    ],
+    "Toronto": [
+     "ta",
+     "ta(r)",
+     "to",
+     "to(r)"
+    ]
+   }
+  },
+  "nba:29": {
+   "canonical_name": "Memphis Grizzlies",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Grizzlies": [
+     "gi"
+    ],
+    "Memphis": [
+     "me"
+    ]
+   }
+  },
+  "nba:3": {
+   "canonical_name": "New Orleans Pelicans",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "Orleans": [
+     "o"
+    ],
+    "Pelicans": [
+     "pe"
+    ]
+   }
+  },
+  "nba:30": {
+   "canonical_name": "Charlotte Hornets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Charlotte": [
+     "ca(cha)",
+     "cha",
+     "sha",
+     "sho"
+    ],
+    "Hornets": [
+     "ho"
+    ]
+   }
+  },
+  "nba:4": {
+   "canonical_name": "Chicago Bulls",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bulls": [
+     "bu"
+    ],
+    "Chicago": [
+     "ci(chi)",
+     "sha",
+     "shu"
+    ]
+   }
+  },
+  "nba:5": {
+   "canonical_name": "Cleveland Cavaliers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Cavaliers": [
+     "ka"
+    ],
+    "Cleveland": [
+     "ki",
+     "se"
+    ]
+   }
+  },
+  "nba:6": {
+   "canonical_name": "Dallas Mavericks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Dallas": [
+     "da",
+     "da(r)",
+     "da(retroflex)"
+    ],
+    "Mavericks": [
+     "ma"
+    ]
+   }
+  },
+  "nba:7": {
+   "canonical_name": "Denver Nuggets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Denver": [
+     "de",
+     "de(r)"
+    ],
+    "Nuggets": [
+     "na",
+     "na(r)",
+     "nu"
+    ]
+   }
+  },
+  "nba:8": {
+   "canonical_name": "Detroit Pistons",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Detroit": [
+     "de",
+     "de(r)",
+     "di",
+     "di(r)"
+    ],
+    "Pistons": [
+     "pi"
+    ]
+   }
+  },
+  "nba:9": {
+   "canonical_name": "Golden State Warriors",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Golden": [
+     "go"
+    ],
+    "State": [
+     "sa",
+     "se"
+    ],
+    "Warriors": [
+     "va",
+     "vo"
+    ]
+   }
+  },
+  "nfl:1": {
+   "canonical_name": "Atlanta Falcons",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Atlanta": [
+     "a",
+     "u"
+    ],
+    "Falcons": [
+     "pa",
+     "pha"
+    ]
+   }
+  },
+  "nfl:10": {
+   "canonical_name": "Tennessee Titans",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Tennessee": [
+     "te",
+     "te(r)"
+    ],
+    "Titans": [
+     "ta",
+     "ta(r)",
+     "te",
+     "te(r)",
+     "ti",
+     "ti(r)"
+    ]
+   }
+  },
+  "nfl:11": {
+   "canonical_name": "Indianapolis Colts",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Colts": [
+     "ko"
+    ],
+    "Indianapolis": [
+     "i"
+    ]
+   }
+  },
+  "nfl:12": {
+   "canonical_name": "Kansas City Chiefs",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Chiefs": [
+     "ce",
+     "ci(chi)"
+    ],
+    "City": [
+     "si"
+    ],
+    "Kansas": [
+     "ka"
+    ]
+   }
+  },
+  "nfl:13": {
+   "canonical_name": "Las Vegas Raiders",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Las": [
+     "e",
+     "la",
+     "lo"
+    ],
+    "Raiders": [
+     "ra",
+     "re",
+     "ri"
+    ],
+    "Vegas": [
+     "ve"
+    ]
+   }
+  },
+  "nfl:14": {
+   "canonical_name": "Los Angeles Rams",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Angeles": [
+     "a"
+    ],
+    "Los": [
+     "lo"
+    ],
+    "Rams": [
+     "ra"
+    ]
+   }
+  },
+  "nfl:15": {
+   "canonical_name": "Miami Dolphins",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Dolphins": [
+     "da",
+     "da(r)",
+     "da(retroflex)",
+     "do",
+     "do(r)"
+    ],
+    "Miami": [
+     "ma",
+     "me",
+     "mi"
+    ]
+   }
+  },
+  "nfl:16": {
+   "canonical_name": "Minnesota Vikings",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Minnesota": [
+     "mi"
+    ],
+    "Vikings": [
+     "va",
+     "ve",
+     "vi"
+    ]
+   }
+  },
+  "nfl:17": {
+   "canonical_name": "New England Patriots",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "England": [
+     "e",
+     "i"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "Patriots": [
+     "pa",
+     "pe"
+    ]
+   }
+  },
+  "nfl:18": {
+   "canonical_name": "New Orleans Saints",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "Orleans": [
+     "o"
+    ],
+    "Saints": [
+     "sa",
+     "se",
+     "si"
+    ]
+   }
+  },
+  "nfl:19": {
+   "canonical_name": "New York Giants",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Giants": [
+     "ga",
+     "gi",
+     "ja",
+     "je"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "nfl:2": {
+   "canonical_name": "Buffalo Bills",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bills": [
+     "bi"
+    ],
+    "Buffalo": [
+     "ba",
+     "bu"
+    ]
+   }
+  },
+  "nfl:20": {
+   "canonical_name": "New York Jets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Jets": [
+     "je"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "nfl:21": {
+   "canonical_name": "Philadelphia Eagles",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Eagles": [
+     "a",
+     "e",
+     "i"
+    ],
+    "Philadelphia": [
+     "pi"
+    ]
+   }
+  },
+  "nfl:22": {
+   "canonical_name": "Arizona Cardinals",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Arizona": [
+     "a",
+     "e"
+    ],
+    "Cardinals": [
+     "ka",
+     "ko"
+    ]
+   }
+  },
+  "nfl:23": {
+   "canonical_name": "Pittsburgh Steelers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Pittsburgh": [
+     "pi"
+    ],
+    "Steelers": [
+     "se",
+     "si"
+    ]
+   }
+  },
+  "nfl:24": {
+   "canonical_name": "Los Angeles Chargers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Angeles": [
+     "a"
+    ],
+    "Chargers": [
+     "ca(cha)",
+     "cha",
+     "co"
+    ],
+    "Los": [
+     "lo"
+    ]
+   }
+  },
+  "nfl:25": {
+   "canonical_name": "San Francisco 49ers",
+   "notes": [
+    "no candidates for word '49ers'"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Francisco": [
+     "pa",
+     "pha"
+    ],
+    "San": [
+     "sa"
+    ]
+   }
+  },
+  "nfl:26": {
+   "canonical_name": "Seattle Seahawks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Seahawks": [
+     "sa",
+     "se",
+     "si"
+    ],
+    "Seattle": [
+     "sa",
+     "se",
+     "si"
+    ]
+   }
+  },
+  "nfl:27": {
+   "canonical_name": "Tampa Bay Buccaneers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bay": [
+     "ba",
+     "be"
+    ],
+    "Buccaneers": [
+     "ba",
+     "bu"
+    ],
+    "Tampa": [
+     "ta",
+     "ta(r)"
+    ]
+   }
+  },
+  "nfl:28": {
+   "canonical_name": "Washington Commanders",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Commanders": [
+     "ka",
+     "ko",
+     "ku"
+    ],
+    "Washington": [
+     "va",
+     "vo"
+    ]
+   }
+  },
+  "nfl:29": {
+   "canonical_name": "Carolina Panthers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Carolina": [
+     "ka",
+     "ke"
+    ],
+    "Panthers": [
+     "pa"
+    ]
+   }
+  },
+  "nfl:3": {
+   "canonical_name": "Chicago Bears",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bears": [
+     "ba",
+     "be"
+    ],
+    "Chicago": [
+     "ci(chi)",
+     "sha",
+     "shu"
+    ]
+   }
+  },
+  "nfl:30": {
+   "canonical_name": "Jacksonville Jaguars",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Jacksonville": [
+     "ja"
+    ],
+    "Jaguars": [
+     "ja"
+    ]
+   }
+  },
+  "nfl:33": {
+   "canonical_name": "Baltimore Ravens",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Baltimore": [
+     "ba",
+     "bo"
+    ],
+    "Ravens": [
+     "ra",
+     "re"
+    ]
+   }
+  },
+  "nfl:34": {
+   "canonical_name": "Houston Texans",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Houston": [
+     "ho",
+     "hu"
+    ],
+    "Texans": [
+     "te",
+     "te(r)"
+    ]
+   }
+  },
+  "nfl:4": {
+   "canonical_name": "Cincinnati Bengals",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bengals": [
+     "be"
+    ],
+    "Cincinnati": [
+     "si"
+    ]
+   }
+  },
+  "nfl:5": {
+   "canonical_name": "Cleveland Browns",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Browns": [
+     "ba",
+     "bo"
+    ],
+    "Cleveland": [
+     "ki",
+     "se"
+    ]
+   }
+  },
+  "nfl:6": {
+   "canonical_name": "Dallas Cowboys",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Cowboys": [
+     "ka",
+     "ko"
+    ],
+    "Dallas": [
+     "da",
+     "da(r)",
+     "da(retroflex)"
+    ]
+   }
+  },
+  "nfl:7": {
+   "canonical_name": "Denver Broncos",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Broncos": [
+     "ba",
+     "bo"
+    ],
+    "Denver": [
+     "de",
+     "de(r)"
+    ]
+   }
+  },
+  "nfl:8": {
+   "canonical_name": "Detroit Lions",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Detroit": [
+     "de",
+     "de(r)",
+     "di",
+     "di(r)"
+    ],
+    "Lions": [
+     "la",
+     "le",
+     "li",
+     "lo"
+    ]
+   }
+  },
+  "nfl:9": {
+   "canonical_name": "Green Bay Packers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bay": [
+     "ba",
+     "be"
+    ],
+    "Green": [
+     "ge",
+     "gi"
+    ],
+    "Packers": [
+     "pa"
+    ]
+   }
+  },
+  "nhl:1": {
+   "canonical_name": "Boston Bruins",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Boston": [
+     "ba",
+     "bo"
+    ],
+    "Bruins": [
+     "bi",
+     "bu"
+    ]
+   }
+  },
+  "nhl:10": {
+   "canonical_name": "Montreal Canadiens",
+   "notes": [
+    "'Canadiens' not in CMUdict; spelling only"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Canadiens": [
+     "ka"
+    ],
+    "Montreal": [
+     "ma",
+     "mo",
+     "mu"
+    ]
+   }
+  },
+  "nhl:11": {
+   "canonical_name": "New Jersey Devils",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Devils": [
+     "de",
+     "de(r)"
+    ],
+    "Jersey": [
+     "ja",
+     "je"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ]
+   }
+  },
+  "nhl:12": {
+   "canonical_name": "New York Islanders",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Islanders": [
+     "a",
+     "e",
+     "i"
+    ],
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "nhl:124292": {
+   "canonical_name": "Seattle Kraken",
+   "notes": [
+    "'Kraken' not in CMUdict; spelling only"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Kraken": [
+     "ka"
+    ],
+    "Seattle": [
+     "sa",
+     "se",
+     "si"
+    ]
+   }
+  },
+  "nhl:129764": {
+   "canonical_name": "Utah Mammoth",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Mammoth": [
+     "ma"
+    ],
+    "Utah": [
+     "u",
+     "yu"
+    ]
+   }
+  },
+  "nhl:13": {
+   "canonical_name": "New York Rangers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "New": [
+     "ne",
+     "nu"
+    ],
+    "Rangers": [
+     "ra",
+     "re"
+    ],
+    "York": [
+     "yo"
+    ]
+   }
+  },
+  "nhl:14": {
+   "canonical_name": "Ottawa Senators",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Ottawa": [
+     "a",
+     "o"
+    ],
+    "Senators": [
+     "se"
+    ]
+   }
+  },
+  "nhl:15": {
+   "canonical_name": "Philadelphia Flyers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Flyers": [
+     "pa",
+     "pe",
+     "pha",
+     "pi"
+    ],
+    "Philadelphia": [
+     "pi"
+    ]
+   }
+  },
+  "nhl:16": {
+   "canonical_name": "Pittsburgh Penguins",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Penguins": [
+     "pe"
+    ],
+    "Pittsburgh": [
+     "pi"
+    ]
+   }
+  },
+  "nhl:17": {
+   "canonical_name": "Colorado Avalanche",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Avalanche": [
+     "a"
+    ],
+    "Colorado": [
+     "ka",
+     "ko"
+    ]
+   }
+  },
+  "nhl:18": {
+   "canonical_name": "San Jose Sharks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Jose": [
+     "ho",
+     "jo"
+    ],
+    "San": [
+     "sa"
+    ],
+    "Sharks": [
+     "sha",
+     "sho"
+    ]
+   }
+  },
+  "nhl:19": {
+   "canonical_name": "St. Louis Blues",
+   "notes": [
+    "no candidates for word 'St.'"
+   ],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Blues": [
+     "be",
+     "bu"
+    ],
+    "Louis": [
+     "lo",
+     "lu"
+    ]
+   }
+  },
+  "nhl:2": {
+   "canonical_name": "Buffalo Sabres",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Buffalo": [
+     "ba",
+     "bu"
+    ],
+    "Sabres": [
+     "sa",
+     "se"
+    ]
+   }
+  },
+  "nhl:20": {
+   "canonical_name": "Tampa Bay Lightning",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Bay": [
+     "ba",
+     "be"
+    ],
+    "Lightning": [
+     "la",
+     "le",
+     "li"
+    ],
+    "Tampa": [
+     "ta",
+     "ta(r)"
+    ]
+   }
+  },
+  "nhl:21": {
+   "canonical_name": "Toronto Maple Leafs",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Leafs": [
+     "la",
+     "le",
+     "li"
+    ],
+    "Maple": [
+     "ma",
+     "me"
+    ],
+    "Toronto": [
+     "ta",
+     "ta(r)",
+     "to",
+     "to(r)"
+    ]
+   }
+  },
+  "nhl:22": {
+   "canonical_name": "Vancouver Canucks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Canucks": [
+     "ka",
+     "ke",
+     "ku"
+    ],
+    "Vancouver": [
+     "va"
+    ]
+   }
+  },
+  "nhl:23": {
+   "canonical_name": "Washington Capitals",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Capitals": [
+     "ka"
+    ],
+    "Washington": [
+     "va",
+     "vo"
+    ]
+   }
+  },
+  "nhl:25": {
+   "canonical_name": "Anaheim Ducks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Anaheim": [
+     "a"
+    ],
+    "Ducks": [
+     "da",
+     "da(r)",
+     "da(retroflex)",
+     "du",
+     "du(r)"
+    ]
+   }
+  },
+  "nhl:26": {
+   "canonical_name": "Florida Panthers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Florida": [
+     "pa",
+     "pha",
+     "po"
+    ],
+    "Panthers": [
+     "pa"
+    ]
+   }
+  },
+  "nhl:27": {
+   "canonical_name": "Nashville Predators",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Nashville": [
+     "na",
+     "na(r)"
+    ],
+    "Predators": [
+     "pe"
+    ]
+   }
+  },
+  "nhl:28": {
+   "canonical_name": "Winnipeg Jets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Jets": [
+     "je"
+    ],
+    "Winnipeg": [
+     "vi"
+    ]
+   }
+  },
+  "nhl:29": {
+   "canonical_name": "Columbus Blue Jackets",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Blue": [
+     "be",
+     "bu"
+    ],
+    "Columbus": [
+     "ka",
+     "ko",
+     "ku"
+    ],
+    "Jackets": [
+     "ja"
+    ]
+   }
+  },
+  "nhl:3": {
+   "canonical_name": "Calgary Flames",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Calgary": [
+     "ka"
+    ],
+    "Flames": [
+     "pa",
+     "pe",
+     "pha"
+    ]
+   }
+  },
+  "nhl:30": {
+   "canonical_name": "Minnesota Wild",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Minnesota": [
+     "mi"
+    ],
+    "Wild": [
+     "va",
+     "ve",
+     "vi"
+    ]
+   }
+  },
+  "nhl:37": {
+   "canonical_name": "Vegas Golden Knights",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Golden": [
+     "go"
+    ],
+    "Knights": [
+     "ki",
+     "na",
+     "na(r)",
+     "ne"
+    ],
+    "Vegas": [
+     "ve"
+    ]
+   }
+  },
+  "nhl:4": {
+   "canonical_name": "Chicago Blackhawks",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Blackhawks": [
+     "ba"
+    ],
+    "Chicago": [
+     "ci(chi)",
+     "sha",
+     "shu"
+    ]
+   }
+  },
+  "nhl:5": {
+   "canonical_name": "Detroit Red Wings",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Detroit": [
+     "de",
+     "de(r)",
+     "di",
+     "di(r)"
+    ],
+    "Red": [
+     "re"
+    ],
+    "Wings": [
+     "vi"
+    ]
+   }
+  },
+  "nhl:6": {
+   "canonical_name": "Edmonton Oilers",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Edmonton": [
+     "e"
+    ],
+    "Oilers": [
+     "i",
+     "o"
+    ]
+   }
+  },
+  "nhl:7": {
+   "canonical_name": "Carolina Hurricanes",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Carolina": [
+     "ka",
+     "ke"
+    ],
+    "Hurricanes": [
+     "ha",
+     "hu"
+    ]
+   }
+  },
+  "nhl:8": {
+   "canonical_name": "Los Angeles Kings",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Angeles": [
+     "a"
+    ],
+    "Kings": [
+     "ki"
+    ],
+    "Los": [
+     "lo"
+    ]
+   }
+  },
+  "nhl:9": {
+   "canonical_name": "Dallas Stars",
+   "notes": [],
+   "rule": "BT1.1-SYL-1",
+   "words": {
+    "Dallas": [
+     "da",
+     "da(r)",
+     "da(retroflex)"
+    ],
+    "Stars": [
+     "sa",
+     "so"
+    ]
+   }
+  }
+ },
+ "venues": {
+  "1": {
+   "lat": 39.28389,
+   "lon": -76.62167,
+   "name": "Oriole Park at Camden Yards",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Oriole_Park_at_Camden_Yards",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "10642": {
+   "lat": 33.9451,
+   "lon": -118.3431,
+   "name": "Intuit Dome",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Intuit_Dome",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); page decimal given to 4 places",
+   "verified": true
+  },
+  "11931": {
+   "lat": -22.9122,
+   "lon": -43.2303,
+   "name": "Maracanã Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Maracan%C3%A3_Stadium",
+   "source_note": "Article: 22°54′44″S 43°13′49″W / 22.9122°S 43.2303°W. Rio de Janeiro. Article confirms Cowboys (home) vs Ravens on 27 Sep 2026.",
+   "verified": true
+  },
+  "11938": {
+   "lat": 42.77306,
+   "lon": -78.79222,
+   "name": "Highmark Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Highmark_Stadium",
+   "source_note": "NEW stadium (opened June 23, 2026; 10 Bills Plaza, Orchard Park). Infobox: 42°46′23″N 78°47′32″W / 42.77306°N 78.79222°W. Old stadium is a separate article (Ralph Wilson Stadium); its coordinates were not used.",
+   "verified": true
+  },
+  "11989": {
+   "doubt": "Not Quebec City and NOT the same building as Videotron Centre (5056); this is the Trois-Rivières arena.",
+   "lat": 46.3215311,
+   "lon": -72.5906657,
+   "name": "Colisee Videotron",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Colis%C3%A9e_Vid%C3%A9otron",
+   "source_note": "Infobox: 46°19′18″N 72°35′26″W / 46.3215311°N 72.5906657°W. Trois-Rivières, QC (opened 2021; ECHL Lions). NHL.com (https://www.nhl.com/canadiens/news/ott-mtl-what-you-need-to-know-preseason-sept-21-2026) confirms Senators vs Canadiens at Colisée Vidéotron in Trois-Rivières on Sept 21, 2026.",
+   "verified": true
+  },
+  "1392": {
+   "lat": 35.13833,
+   "lon": -90.05056,
+   "name": "FedExForum",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/FedExForum",
+   "source_note": "Infobox: 35°8′18″N 90°3′2″W / 35.13833°N 90.05056°W. Memphis; Grizzlies.",
+   "verified": true
+  },
+  "1394": {
+   "lat": 29.75083,
+   "lon": -95.36222,
+   "name": "Toyota Center (Houston)",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Toyota_Center",
+   "source_note": "Infobox: 29°45′3″N 95°21′44″W / 29.75083°N 95.36222°W. Houston (1510 Polk St); Rockets.",
+   "verified": true
+  },
+  "1396": {
+   "lat": 27.94278,
+   "lon": -82.45194,
+   "name": "Benchmark International Arena",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Benchmark_International_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); renamed from Amalie Arena 2025-08-13",
+   "verified": true
+  },
+  "1397": {
+   "lat": 49.89278,
+   "lon": -97.14361,
+   "name": "Canada Life Centre",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Canada_Life_Centre",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "14": {
+   "lat": 43.64139,
+   "lon": -79.38917,
+   "name": "Rogers Centre",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Rogers_Centre",
+   "source_note": "Infobox: 43°38′29″N 79°23′21″W / 43.64139°N 79.38917°W. Toronto; Blue Jays.",
+   "verified": true
+  },
+  "16": {
+   "lat": 41.94806,
+   "lon": -87.65556,
+   "name": "Wrigley Field",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Wrigley_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1653": {
+   "lat": 37.33278,
+   "lon": -121.90111,
+   "name": "SAP Center at San Jose",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/SAP_Center",
+   "source_note": "Infobox: 37°19′58″N 121°54′4″W / 37.33278°N 121.90111°W. San Jose; Sharks.",
+   "verified": true
+  },
+  "1823": {
+   "lat": 38.89806,
+   "lon": -77.02083,
+   "name": "Capital One Arena",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Capital_One_Arena",
+   "source_note": "Infobox: 38°53′53″N 77°1′15″W / 38.89806°N 77.02083°W. Washington, D.C.; Wizards and Capitals.",
+   "verified": true
+  },
+  "1824": {
+   "lat": 42.36639,
+   "lon": -71.06222,
+   "name": "TD Garden",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/TD_Garden",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1826": {
+   "lat": 40.73361,
+   "lon": -74.17111,
+   "name": "Prudential Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Prudential_Center",
+   "source_note": "Infobox: 40°44′1″N 74°10′16″W / 40.73361°N 74.17111°W. Newark, NJ; Devils.",
+   "verified": true
+  },
+  "1827": {
+   "lat": 33.75722,
+   "lon": -84.39639,
+   "name": "State Farm Arena",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/State_Farm_Arena",
+   "source_note": "Infobox: 33°45′26″N 84°23′47″W / 33.75722°N 84.39639°W. Atlanta; Hawks.",
+   "verified": true
+  },
+  "1828": {
+   "lat": 39.9692833,
+   "lon": -83.0061111,
+   "name": "Nationwide Arena",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Nationwide_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed) (DMS 39°58′9.42″N 83°0′22.00″W)",
+   "verified": true
+  },
+  "1830": {
+   "lat": 40.75056,
+   "lon": -73.99361,
+   "name": "Madison Square Garden",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); article confirmed to be current (1968-) Garden",
+   "verified": true
+  },
+  "1831": {
+   "lat": 45.49611,
+   "lon": -73.56944,
+   "name": "Bell Centre",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Bell_Centre",
+   "source_note": "Infobox: 45°29′46″N 73°34′10″W / 45.49611°N 73.56944°W. Montreal; Canadiens.",
+   "verified": true
+  },
+  "1832": {
+   "lat": 45.29694,
+   "lon": -75.92722,
+   "name": "Canadian Tire Centre",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Canadian_Tire_Centre",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1833": {
+   "lat": 49.27778,
+   "lon": -123.10889,
+   "name": "Rogers Arena",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Rogers_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1834": {
+   "lat": 36.15917,
+   "lon": -86.77861,
+   "name": "Bridgestone Arena",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Bridgestone_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1835": {
+   "lat": 44.94472,
+   "lon": -93.10111,
+   "name": "Grand Casino Arena",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Grand_Casino_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); renamed from Xcel Energy Center 2025-09-03",
+   "verified": true
+  },
+  "1837": {
+   "lat": 40.43944,
+   "lon": -79.98917,
+   "name": "PPG Paints Arena",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/PPG_Paints_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1838": {
+   "lat": 43.64333,
+   "lon": -79.37917,
+   "name": "Scotiabank Arena",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Scotiabank_Arena",
+   "source_note": "Infobox: 43°38′36″N 79°22′45″W / 43.64333°N 79.37917°W. Toronto; Maple Leafs and Raptors.",
+   "verified": true
+  },
+  "1839": {
+   "lat": 38.62667,
+   "lon": -90.2025,
+   "name": "Enterprise Center",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Enterprise_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1840": {
+   "lat": 26.15833,
+   "lon": -80.32556,
+   "name": "Amerant Bank Arena",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Amerant_Bank_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1841": {
+   "lat": 34.04306,
+   "lon": -118.26722,
+   "name": "crypto.com Arena",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Crypto.com_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1842": {
+   "lat": 33.80778,
+   "lon": -117.87667,
+   "name": "Honda Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Honda_Center",
+   "source_note": "Infobox: 33°48′28″N 117°52′36″W / 33.80778°N 117.87667°W. Anaheim; Ducks.",
+   "verified": true
+  },
+  "1843": {
+   "lat": 51.0375,
+   "lon": -114.05194,
+   "name": "Scotiabank Saddledome",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Scotiabank_Saddledome",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); Flames' final game there scheduled April 2027, so still in use April 2026",
+   "verified": true
+  },
+  "1845": {
+   "lat": 39.90111,
+   "lon": -75.17194,
+   "name": "Xfinity Mobile Arena",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); renamed from Wells Fargo Center 2025-08-14",
+   "verified": true
+  },
+  "1847": {
+   "lat": 41.88056,
+   "lon": -87.67417,
+   "name": "United Center",
+   "retrieved_at_utc": "2026-10-14T11:51Z",
+   "source": "https://en.wikipedia.org/wiki/United_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1848": {
+   "lat": 42.875,
+   "lon": -78.87639,
+   "name": "KeyBank Center",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/KeyBank_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1893": {
+   "lat": 35.225,
+   "lon": -80.83917,
+   "name": "Spectrum Center",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/Spectrum_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); Charlotte arena confirmed",
+   "verified": true
+  },
+  "19": {
+   "lat": 34.07361,
+   "lon": -118.24,
+   "name": "Dodger Stadium",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Dodger_Stadium",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "1911": {
+   "doubt": "Wikipedia lacks coordinates; value from DBpedia (derived from older Wikipedia data).",
+   "lat": 36.152721,
+   "lon": -95.99633,
+   "name": "BOK Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://dbpedia.org/page/BOK_Center",
+   "source_note": "English Wikipedia article (https://en.wikipedia.org/wiki/BOK_Center) has no coordinates; DBpedia gives geo:lat 36.152721, geo:long -95.996330. Tulsa, OK; Wikipedia notes Thunder preseason games there.",
+   "verified": true
+  },
+  "1949": {
+   "lat": 33.44583,
+   "lon": -112.07139,
+   "name": "Mortgage Matchup Center",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Mortgage_Matchup_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); renamed from PHX Arena/Footprint Center 2025-10-02",
+   "verified": true
+  },
+  "2": {
+   "lat": 42.34639,
+   "lon": -71.09778,
+   "name": "Fenway Park",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Fenway_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "2029": {
+   "lat": 44.97944,
+   "lon": -93.27611,
+   "name": "Target Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Target_Center",
+   "source_note": "Infobox: 44°58′46″N 93°16′34″W / 44.97944°N 93.27611°W. Minneapolis; Timberwolves.",
+   "verified": true
+  },
+  "208": {
+   "lat": 40.82917,
+   "lon": -73.92639,
+   "name": "Yankee Stadium",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Yankee_Stadium",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); article confirmed to be the 2009- stadium",
+   "verified": true
+  },
+  "209": {
+   "lat": 40.75694,
+   "lon": -73.84583,
+   "name": "Citi Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Citi_Field",
+   "source_note": "Infobox: 40°45′25″N 73°50′45″W / 40.75694°N 73.84583°W. Flushing, Queens; Mets 2009–present.",
+   "verified": true
+  },
+  "21": {
+   "lat": 40.28639,
+   "lon": -76.66917,
+   "name": "Giant Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Giant_Center",
+   "source_note": "Infobox: 40°17′11″N 76°40′9″W / 40.28639°N 76.66917°W. Hershey, PA; Hershey Bears (Capitals AHL affiliate). Capitals preseason game not mentioned in article.",
+   "verified": true
+  },
+  "210": {
+   "lat": 44.98167,
+   "lon": -93.27833,
+   "name": "Target Field",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Target_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "218": {
+   "lat": 33.89,
+   "lon": -84.468056,
+   "name": "Truist Park",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Truist_Park",
+   "source_note": "Wikipedia infobox DMS converted to decimal (more precise than displayed decimal): 33°53′24″N 84°28′05″W; page decimal shown only to 3 places (33.89, -84.468)",
+   "verified": true
+  },
+  "2183": {
+   "lat": 39.76389,
+   "lon": -86.15556,
+   "name": "Gainbridge Fieldhouse",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Gainbridge_Fieldhouse",
+   "source_note": "Infobox: 39°45′50″N 86°9′20″W / 39.76389°N 86.15556°W. Indianapolis; Pacers.",
+   "verified": true
+  },
+  "2207": {
+   "lat": 40.0047,
+   "lon": -105.2606,
+   "name": "CU Events Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/CU_Events_Center",
+   "source_note": "Infobox: 40°00′17″N 105°15′38″W / 40.0047°N 105.2606°W. Boulder, CO (CU campus). Nuggets 2026 preseason game not mentioned in article.",
+   "verified": true
+  },
+  "223": {
+   "lat": 41.242347,
+   "lon": -77.047067,
+   "name": "Journey Bank Ballpark at Historic Bowman Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Bowman_Field",
+   "source_note": "Infobox: 41°14′32″N 77°02′49″W / 41.242347°N 77.047067°W. Williamsport, PA; hosts MLB Little League Classic each August. Article notes sponsor name changed to Journey Bank after 2023 merger.",
+   "verified": true
+  },
+  "231": {
+   "lat": 32.7475,
+   "lon": -97.08417,
+   "name": "Globe Life Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Globe_Life_Field",
+   "source_note": "Infobox: 32°44′51″N 97°5′3″W / 32.74750°N 97.08417°W. Arlington, TX; Rangers 2020–present.",
+   "verified": true
+  },
+  "232": {
+   "doubt": "Coordinates are for the movie-site field; MLB games are played at a separate temporary MLB ballpark ~500 ft (150 m) away, for which Wikipedia gives no separate coordinates.",
+   "lat": 42.49778,
+   "lon": -91.055,
+   "name": "Field of Dreams",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Field_of_Dreams_(Dubuque_County,_Iowa)",
+   "source_note": "Infobox: 42°29′52″N 91°03′18″W / 42.49778°N 91.05500°W (movie-site field, Dyersville area). Article confirms Twins vs Phillies on 13 Aug 2026.",
+   "verified": false
+  },
+  "234": {
+   "lat": 36.152278,
+   "lon": -115.329417,
+   "name": "Las Vegas Ballpark",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Las_Vegas_Ballpark",
+   "source_note": "Infobox: 36°09′08.2″N 115°19′45.9″W / 36.152278°N 115.329417°W. Summerlin South, NV. Article confirms Athletics games June 8–10 and 12–14, 2026.",
+   "verified": true
+  },
+  "2494": {
+   "doubt": "No Wikipedia coordinates; value from a ticketing site's map link, corroborated within ~15 m by a second non-Wikipedia source.",
+   "lat": 34.073104,
+   "lon": -117.566266,
+   "name": "Toyota Arena",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://www.koobit.com/united-states-l3/california-l404/riverside-san-bernardino-ontario-l1197/toyota-arena-v613",
+   "source_note": "English Wikipedia (https://en.wikipedia.org/wiki/Toyota_Arena) confirms Ontario, CA, Kings AHL affiliate Reign, past Kings preseason game, but has no coordinates. Koobit Google Maps link: 34.07310398060523,-117.56626647346168 (rounded to 6 dp). Corroborated by https://ahl-data.ryancheley.com/games/arena?Team=21: 34.073055555555555, 117.56638888888888 (sign omitted there).",
+   "verified": true
+  },
+  "2559": {
+   "lat": 35.46333,
+   "lon": -97.515,
+   "name": "Paycom Center",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/Paycom_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "27": {
+   "lat": 39.75611,
+   "lon": -104.99417,
+   "name": "Coors Field",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Coors_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "3": {
+   "lat": 33.80028,
+   "lon": -117.88278,
+   "name": "Angel Stadium",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Angel_Stadium",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "30": {
+   "lat": 33.44528,
+   "lon": -112.06694,
+   "name": "Chase Field",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Chase_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "3093": {
+   "lat": 40.76833,
+   "lon": -111.90111,
+   "name": "Delta Center",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/Delta_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "31": {
+   "doubt": "Rays played 2025 at George M. Steinbrenner Field; per Wikipedia they returned to Tropicana Field for 2026 (first home game 2026-04-06). No April 2026 home games before Apr 6. Building identity confirmed.",
+   "lat": 27.76833,
+   "lon": -82.65333,
+   "name": "Tropicana Field",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Tropicana_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); Wikipedia Tropicana Field and 2026 Tampa Bay Rays season pages state Rays returned from Steinbrenner Field and played 2026 home opener at Tropicana Field on 2026-04-06; all 2026 home games listed there",
+   "verified": true
+  },
+  "3417": {
+   "lat": 41.49639,
+   "lon": -81.68806,
+   "name": "Rocket Arena",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/Rocket_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "3423": {
+   "lat": 45.53167,
+   "lon": -122.66667,
+   "name": "Moda Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Moda_Center",
+   "source_note": "Infobox: 45°31′54″N 122°40′0″W / 45.53167°N 122.66667°W. Portland; Trail Blazers.",
+   "verified": true
+  },
+  "3432": {
+   "lat": 28.53917,
+   "lon": -81.38361,
+   "name": "Kia Center",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Kia_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "3438": {
+   "lat": 25.78139,
+   "lon": -80.18806,
+   "name": "Kaseya Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Kaseya_Center",
+   "source_note": "Infobox: 25°46′53″N 80°11′17″W / 25.78139°N 80.18806°W. Miami; Heat.",
+   "verified": true
+  },
+  "349": {
+   "lat": 36.0596,
+   "lon": -79.8257,
+   "name": "First Horizon Coliseum",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/First_Horizon_Coliseum",
+   "source_note": "Infobox: 36°03′35″N 79°49′33″W / 36.0596000°N 79.825700°W. Greensboro, NC (formerly Greensboro Coliseum). Hurricanes 2026 preseason game not mentioned in article.",
+   "verified": true
+  },
+  "3493": {
+   "lat": 29.95083,
+   "lon": -90.08111,
+   "name": "Caesars Superdome",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Caesars_Superdome",
+   "source_note": "Infobox: 29°57′3″N 90°4′52″W / 29.95083°N 90.08111°W. New Orleans; Saints.",
+   "verified": true
+  },
+  "3559": {
+   "lat": 40.6826611,
+   "lon": -73.975225,
+   "name": "Barclays Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Barclays_Center",
+   "source_note": "Infobox: 40°40′57.58″N 73°58′30.81″W / 40.6826611°N 73.9752250°W. Brooklyn; Nets.",
+   "verified": true
+  },
+  "3622": {
+   "lat": 39.04889,
+   "lon": -94.48389,
+   "name": "Arrowhead Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Arrowhead_Stadium",
+   "source_note": "Infobox: 39°2′56″N 94°29′2″W / 39.04889°N 94.48389°W. Kansas City, MO; Chiefs (GEHA Field at Arrowhead Stadium).",
+   "verified": true
+  },
+  "3628": {
+   "lat": 35.22583,
+   "lon": -80.85278,
+   "name": "Bank of America Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Bank_of_America_Stadium",
+   "source_note": "Infobox: 35°13′33″N 80°51′10″W / 35.22583°N 80.85278°W. Charlotte; Panthers.",
+   "verified": true
+  },
+  "3673": {
+   "lat": 47.5952,
+   "lon": -122.3316,
+   "name": "Lumen Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Lumen_Field",
+   "source_note": "Article: 47°35′43″N 122°19′54″W / 47.5952°N 122.3316°W. Seattle; Seahawks.",
+   "verified": true
+  },
+  "3679": {
+   "lat": 41.50611,
+   "lon": -81.69944,
+   "name": "Huntington Bank Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Huntington_Bank_Field",
+   "source_note": "Infobox: 41°30′22″N 81°41′58″W / 41.50611°N 81.69944°W. Cleveland; Browns.",
+   "verified": true
+  },
+  "3687": {
+   "lat": 32.74778,
+   "lon": -97.09278,
+   "name": "AT&T Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/AT%26T_Stadium",
+   "source_note": "Infobox: 32°44′52″N 97°5′34″W / 32.74778°N 97.09278°W. Arlington, TX; Cowboys.",
+   "verified": true
+  },
+  "3712": {
+   "lat": 30.32389,
+   "lon": -81.6375,
+   "name": "EverBank Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/EverBank_Stadium",
+   "source_note": "Infobox: 30°19′26″N 81°38′15″W / 30.32389°N 81.63750°W. Jacksonville; Jaguars still play here in 2026 (reduced capacity during renovation; 2027 season moves to Orlando).",
+   "verified": true
+  },
+  "3718": {
+   "lat": 40.82,
+   "lon": -81.398,
+   "name": "Tom Benson Hall of Fame Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Tom_Benson_Hall_of_Fame_Stadium",
+   "source_note": "Infobox: 40°49′12″N 81°23′53″W / 40.820°N 81.398°W. Canton, OH; hosts annual Hall of Fame Game (2026 teams not named in article).",
+   "verified": true
+  },
+  "3719": {
+   "lat": 38.90778,
+   "lon": -76.86444,
+   "name": "Northwest Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Northwest_Stadium",
+   "source_note": "Infobox: 38°54′28″N 76°51′52″W / 38.90778°N 76.86444°W. Near Landover, MD; Commanders.",
+   "verified": true
+  },
+  "3727": {
+   "lat": 42.34,
+   "lon": -83.04556,
+   "name": "Ford Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Ford_Field",
+   "source_note": "Infobox: 42°20′24″N 83°2′44″W / 42.34000°N 83.04556°W. Detroit; Lions.",
+   "verified": true
+  },
+  "3738": {
+   "lat": 42.091,
+   "lon": -71.264,
+   "name": "Gillette Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Gillette_Stadium",
+   "source_note": "Infobox: 42°05′28″N 71°15′50″W / 42.091°N 71.264°W. Foxborough, MA; Patriots.",
+   "verified": true
+  },
+  "3752": {
+   "lat": 40.44667,
+   "lon": -80.01583,
+   "name": "Acrisure Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Acrisure_Stadium",
+   "source_note": "Infobox: 40°26′48″N 80°0′57″W / 40.44667°N 80.01583°W. Pittsburgh; Steelers.",
+   "verified": true
+  },
+  "3798": {
+   "lat": 44.50139,
+   "lon": -88.06222,
+   "name": "Lambeau Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Lambeau_Field",
+   "source_note": "Infobox: 44°30′5″N 88°3′44″W / 44.50139°N 88.06222°W. Green Bay; Packers.",
+   "verified": true
+  },
+  "3806": {
+   "lat": 39.90083,
+   "lon": -75.1675,
+   "name": "Lincoln Financial Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Lincoln_Financial_Field",
+   "source_note": "Infobox: 39°54′3″N 75°10′3″W / 39.90083°N 75.16750°W. Philadelphia; Eagles.",
+   "verified": true
+  },
+  "3810": {
+   "lat": 36.16639,
+   "lon": -86.77139,
+   "name": "Nissan Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Nashville)",
+   "source_note": "Infobox: 36°9′59″N 86°46′17″W / 36.16639°N 86.77139°W. Existing (1999) Nashville stadium; Titans play here through Jan 3, 2027. Replacement stadium (2027) is a separate article, not used.",
+   "verified": true
+  },
+  "3812": {
+   "lat": 39.760056,
+   "lon": -86.163806,
+   "name": "Lucas Oil Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Lucas_Oil_Stadium",
+   "source_note": "Infobox: 39°45′36.2″N 86°9′49.7″W / 39.760056°N 86.163806°W. Indianapolis; Colts.",
+   "verified": true
+  },
+  "3814": {
+   "lat": 39.27806,
+   "lon": -76.62278,
+   "name": "M&T Bank Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/M%26T_Bank_Stadium",
+   "source_note": "Infobox: 39°16′41″N 76°37′22″W / 39.27806°N 76.62278°W. Baltimore; Ravens.",
+   "verified": true
+  },
+  "3839": {
+   "lat": 40.81361,
+   "lon": -74.07444,
+   "name": "MetLife Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/MetLife_Stadium",
+   "source_note": "Infobox: 40°48′49″N 74°4′28″W / 40.81361°N 74.07444°W. East Rutherford, NJ; Giants and Jets.",
+   "verified": true
+  },
+  "3874": {
+   "lat": 39.095,
+   "lon": -84.516,
+   "name": "Paycor Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Paycor_Stadium",
+   "source_note": "Infobox: 39°05′42″N 84°30′58″W / 39.095°N 84.516°W. Cincinnati; Bengals.",
+   "verified": true
+  },
+  "3886": {
+   "lat": 27.97583,
+   "lon": -82.50333,
+   "name": "Raymond James Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Raymond_James_Stadium",
+   "source_note": "Infobox: 27°58′33″N 82°30′12″W / 27.97583°N 82.50333°W. Tampa; Buccaneers.",
+   "verified": true
+  },
+  "3891": {
+   "lat": 29.68472,
+   "lon": -95.41083,
+   "name": "Reliant Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/NRG_Stadium",
+   "source_note": "Infobox: 29°41′5″N 95°24′39″W / 29.68472°N 95.41083°W. Houston; Texans since 2002. Infobox lists name Reliant Stadium 2002–2014 and again from August 2026 (NRG Stadium 2014–Apr 2026).",
+   "verified": true
+  },
+  "3933": {
+   "lat": 41.8623,
+   "lon": -87.6167,
+   "name": "Soldier Field",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Soldier_Field",
+   "source_note": "Infobox: 41°51′44″N 87°37′00″W / 41.8623°N 87.6167°W. Chicago; Bears.",
+   "verified": true
+  },
+  "3937": {
+   "lat": 39.74389,
+   "lon": -105.02,
+   "name": "Empower Field at Mile High",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Empower_Field_at_Mile_High",
+   "source_note": "Infobox: 39°44′38″N 105°1′12″W / 39.74389°N 105.02000°W. Denver; Broncos.",
+   "verified": true
+  },
+  "3948": {
+   "lat": 25.95806,
+   "lon": -80.23889,
+   "name": "Hard Rock Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Hard_Rock_Stadium",
+   "source_note": "Infobox: 25°57′29″N 80°14′20″W / 25.95806°N 80.23889°W. Miami Gardens; Dolphins.",
+   "verified": true
+  },
+  "3970": {
+   "lat": 33.528,
+   "lon": -112.263,
+   "name": "State Farm Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/State_Farm_Stadium",
+   "source_note": "Infobox: 33°31′41″N 112°15′47″W / 33.528°N 112.263°W. Glendale, AZ; Cardinals.",
+   "verified": true
+  },
+  "4": {
+   "lat": 41.83,
+   "lon": -87.63389,
+   "name": "Rate Field",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Rate_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "4018": {
+   "doubt": "Not Las Vegas: the ESPN 'Venetian Arena' for these dates is in Macao (eastern hemisphere, positive lon).",
+   "lat": 22.1477,
+   "lon": 113.559,
+   "name": "Venetian Arena",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Venetian_Arena",
+   "source_note": "Infobox: 22°08′52″N 113°33′32″E / 22.1477°N 113.5590°E. The Venetian Macao, Cotai, Macau (formerly Cotai Arena 2010–2024). NBA release https://pr.nba.com/mavericks-rockets-macao confirms Mavericks vs Rockets at The Venetian Arena, Macao, Oct 9 and 11, 2026.",
+   "verified": true
+  },
+  "41": {
+   "lat": 47.591111,
+   "lon": -122.333056,
+   "name": "T-Mobile Park",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/T-Mobile_Park",
+   "source_note": "Wikipedia infobox DMS converted to decimal (more precise than displayed decimal): 47°35′28″N 122°19′59″W; page decimal shown only to 3 places (47.591, -122.333)",
+   "verified": true
+  },
+  "4223": {
+   "lat": 25.77806,
+   "lon": -80.21972,
+   "name": "loanDepot park",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/LoanDepot_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "4242": {
+   "lat": 43.02833,
+   "lon": -87.97111,
+   "name": "American Family Field",
+   "retrieved_at_utc": "2026-10-14T11:44Z",
+   "source": "https://en.wikipedia.org/wiki/American_Family_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "43": {
+   "lat": 37.77861,
+   "lon": -122.38917,
+   "name": "Oracle Park",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Oracle_Park",
+   "source_note": "Infobox: 37°46′43″N 122°23′21″W / 37.77861°N 122.38917°W. San Francisco; Giants 2000–present.",
+   "verified": true
+  },
+  "432": {
+   "lat": 42.02101,
+   "lon": -93.634763,
+   "name": "Hilton Coliseum",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Hilton_Coliseum",
+   "source_note": "Article: 42°01′16″N 93°38′05″W / 42.02101°N 93.634763°W. Ames, IA (Iowa State Center). Pacers 2026 preseason game not mentioned in article.",
+   "verified": true
+  },
+  "44": {
+   "lat": 29.75694,
+   "lon": -95.35556,
+   "name": "Daikin Park",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Daikin_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "45": {
+   "lat": 42.33917,
+   "lon": -83.04861,
+   "name": "Comerica Park",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Comerica_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "47": {
+   "lat": 40.44694,
+   "lon": -80.00583,
+   "name": "PNC Park",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/PNC_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "4738": {
+   "lat": 37.403,
+   "lon": -121.97,
+   "name": "Levi's Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Levi%27s_Stadium",
+   "source_note": "Infobox: 37°24′11″N 121°58′12″W / 37.403°N 121.970°W. Santa Clara; 49ers.",
+   "verified": true
+  },
+  "5": {
+   "lat": 41.49583,
+   "lon": -81.68528,
+   "name": "Progressive Field",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Progressive_Field",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "5056": {
+   "lat": 46.829,
+   "lon": -71.248,
+   "name": "Videotron Centre",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Centre_Vid%C3%A9otron",
+   "source_note": "Infobox: 46°49′44″N 71°14′53″W / 46.829°N 71.248°W. Quebec City. Article confirms Raptors vs Heat NBA Canada Series preseason game on Oct 3, 2026.",
+   "verified": true
+  },
+  "5060": {
+   "lat": 36.10278,
+   "lon": -115.17833,
+   "name": "T-Mobile Arena",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/T-Mobile_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "516": {
+   "lat": 32.79056,
+   "lon": -96.81028,
+   "name": "American Airlines Center",
+   "retrieved_at_utc": "2026-10-14T11:49Z",
+   "source": "https://en.wikipedia.org/wiki/American_Airlines_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "5239": {
+   "lat": 44.974,
+   "lon": -93.258,
+   "name": "U.S. Bank Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/U.S._Bank_Stadium",
+   "source_note": "Infobox: 44°58′26″N 93°15′29″W / 44.974°N 93.258°W. Minneapolis; Vikings.",
+   "verified": true
+  },
+  "5282": {
+   "lat": 53.54694,
+   "lon": -113.49778,
+   "name": "Rogers Place",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Rogers_Place",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "5310": {
+   "lat": 38.580361,
+   "lon": -121.499611,
+   "name": "Golden 1 Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Golden_1_Center",
+   "source_note": "Infobox: 38°34′49.3″N 121°29′58.6″W / 38.580361°N 121.499611°W. Sacramento; Kings.",
+   "verified": true
+  },
+  "5348": {
+   "lat": 33.75556,
+   "lon": -84.4,
+   "name": "Mercedes-Benz Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium",
+   "source_note": "Infobox: 33°45′20″N 84°24′00″W / 33.75556°N 84.40000°W. Atlanta; Falcons.",
+   "verified": true
+  },
+  "540": {
+   "lat": 21.29417,
+   "lon": -157.81889,
+   "name": "Stan Sheriff Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Stan_Sheriff_Center",
+   "source_note": "Article: 21°17′39″N 157°49′08″W / 21.29417°N 157.81889°W. Honolulu (UH Manoa); Clippers preseason history 2017–2019 listed.",
+   "verified": true
+  },
+  "5404": {
+   "lat": 42.34111,
+   "lon": -83.055,
+   "name": "Little Caesars Arena",
+   "retrieved_at_utc": "2026-10-14T11:48Z",
+   "source": "https://en.wikipedia.org/wiki/Little_Caesars_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "5534": {
+   "doubt": "Coordinates from latlong.net, not Wikipedia. Wikipedia article as fetched does not list the 2026 NFL games (Jaguars/Commanders), so the 2026 dates were not independently confirmed.",
+   "lat": 51.604252,
+   "lon": -0.067007,
+   "name": "Tottenham Hotspur Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://www.latlong.net/place/tottenham-hotspur-stadium-london-uk-31926.html",
+   "source_note": "English Wikipedia (https://en.wikipedia.org/wiki/Tottenham_Hotspur_Stadium) shows no coordinates in fetched text; latlong.net gives 51.604252, -0.067007. Building identity unambiguous (782 High Road, Tottenham, London).",
+   "verified": true
+  },
+  "5777": {
+   "lat": 43.045028,
+   "lon": -87.918167,
+   "name": "Fiserv Forum",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Fiserv_Forum",
+   "source_note": "Infobox: 43°2′42.1″N 87°55′5.4″W / 43.045028°N 87.918167°W. Milwaukee; Bucks.",
+   "verified": true
+  },
+  "6270": {
+   "lat": 37.76806,
+   "lon": -122.3875,
+   "name": "Chase Center",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Chase_Center",
+   "source_note": "Infobox: 37°46′05″N 122°23′15″W / 37.76806°N 122.38750°W. San Francisco; Warriors.",
+   "verified": true
+  },
+  "6501": {
+   "lat": 36.09056,
+   "lon": -115.18389,
+   "name": "Allegiant Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Allegiant_Stadium",
+   "source_note": "Infobox: 36°05′26″N 115°11′2″W / 36.09056°N 115.18389°W. Paradise, NV; Raiders.",
+   "verified": true
+  },
+  "7": {
+   "lat": 39.0514,
+   "lon": -94.4806,
+   "name": "Kauffman Stadium",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Kauffman_Stadium",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); page decimal given to 4 places (DMS 39°03′05″N 94°28′50″W)",
+   "verified": true
+  },
+  "7065": {
+   "lat": 33.953,
+   "lon": -118.339,
+   "name": "SoFi Stadium",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/SoFi_Stadium",
+   "source_note": "Infobox: 33°57′11″N 118°20′20″W / 33.953°N 118.339°W. Inglewood; Rams and Chargers.",
+   "verified": true
+  },
+  "7103": {
+   "lat": 19.404,
+   "lon": -99.0855,
+   "name": "Estadio Alfredo Harp Helú",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Estadio_Alfredo_Harp_Hel%C3%BA",
+   "source_note": "Infobox: 19°24′14″N 99°05′08″W / 19.404°N 99.0855°W. Mexico City (Iztacalco). Article lists Padres vs Diamondbacks 25–26 Apr 2026.",
+   "verified": true
+  },
+  "7109": {
+   "doubt": "Temporary MLB venue: Athletics' interim home 2025-2027 (West Sacramento) before Las Vegas move; building identity itself is unambiguous.",
+   "lat": 38.5803722,
+   "lon": -121.5138,
+   "name": "Sutter Health Park",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Sutter_Health_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed) (DMS 38°34′49.34″N 121°30′49.68″W)",
+   "verified": true
+  },
+  "7224": {
+   "lat": 47.622,
+   "lon": -122.354,
+   "name": "Climate Pledge Arena",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Climate_Pledge_Arena",
+   "source_note": "Infobox: 47°37′19″N 122°21′14″W / 47.622°N 122.354°W. Seattle; Kraken.",
+   "verified": true
+  },
+  "7226": {
+   "lat": 40.71179,
+   "lon": -73.72604,
+   "name": "UBS Arena",
+   "retrieved_at_utc": "2026-10-14T11:51Z",
+   "source": "https://en.wikipedia.org/wiki/UBS_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "780": {
+   "lat": 29.42694,
+   "lon": -98.4375,
+   "name": "Frost Bank Center",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Frost_Bank_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "83": {
+   "lat": 39.0975,
+   "lon": -84.50667,
+   "name": "Great American Ball Park",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Great_American_Ball_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "84": {
+   "lat": 39.90583,
+   "lon": -75.16639,
+   "name": "Citizens Bank Park",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Citizens_Bank_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "85": {
+   "lat": 32.7073,
+   "lon": -117.1566,
+   "name": "Petco Park",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Petco_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); page decimal given to 4 places (DMS 32°42′26″N 117°09′24″W converts to 32.70722, -117.15667)",
+   "verified": true
+  },
+  "87": {
+   "lat": 38.6225,
+   "lon": -90.19306,
+   "name": "Busch Stadium",
+   "retrieved_at_utc": "2026-10-14T11:45Z",
+   "source": "https://en.wikipedia.org/wiki/Busch_Stadium",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "89": {
+   "lat": 38.87278,
+   "lon": -77.0075,
+   "name": "Nationals Park",
+   "retrieved_at_utc": "2026-10-14T11:46Z",
+   "source": "https://en.wikipedia.org/wiki/Nationals_Park",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "892": {
+   "lat": 39.74861,
+   "lon": -105.0075,
+   "name": "Ball Arena",
+   "retrieved_at_utc": "2026-10-14T11:47Z",
+   "source": "https://en.wikipedia.org/wiki/Ball_Arena",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed)",
+   "verified": true
+  },
+  "9119": {
+   "lat": -37.82,
+   "lon": 144.98333,
+   "name": "Melbourne Cricket Ground",
+   "retrieved_at_utc": "2026-10-14T13:50:00Z",
+   "source": "https://en.wikipedia.org/wiki/Melbourne_Cricket_Ground",
+   "source_note": "Infobox: 37°49′12″S 144°59′0″E / 37.82000°S 144.98333°E. East Melbourne. Article confirms Rams vs 49ers on 11 Sep 2026 local (10 Sep US time).",
+   "verified": true
+  },
+  "999": {
+   "lat": 35.80333,
+   "lon": -78.72194,
+   "name": "Lenovo Center",
+   "retrieved_at_utc": "2026-10-14T11:50Z",
+   "source": "https://en.wikipedia.org/wiki/Lenovo_Center",
+   "source_note": "Wikipedia infobox coordinates (decimal as displayed); renovations are summer-only, no 2026 in-season closure noted",
+   "verified": true
+  }
+ }
+}
