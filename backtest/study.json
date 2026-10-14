@@ -1,0 +1,15 @@
+{
+  "study_id": "GD-C1.0-BT1.0",
+  "engine_sha256": "35bd6397a98c8dd2db5f4b1e97bb9fb89c25e7b4f32d8c95553d42382e99656f",
+  "period": ["2026-04-14", "2026-10-13"],
+  "pilot": ["2026-04-14", "2026-04-20"],
+  "timezone": "America/Los_Angeles",
+  "cutoff_hour": 6,
+  "quote_max_age_seconds": 10800,
+  "daily_pick_limit": 4,
+  "favorite_min_mid": 0.55,
+  "max_spread": 0.05,
+  "ranking": ["supporting_families_desc", "agree5_desc", "agree10_desc", "abs_median5_desc", "event_ticker_asc"],
+  "strict_gates": ["timestamped_scheduled_start", "verified_venue_coordinates", "timestamped_sportsbook_favorite", "frozen_name_syllables", "quote_before_cutoff", "market_existed_before_cutoff"],
+  "scope": "Retrospective engine replay; not actual GPT/Claude prospective performance. Ranking/tie-break and cutoff are BT1.0 implementation choices. No fees or depth assumed. Current historical schedule/odds records are not proof of their 6 a.m. versions. No automatic six-month expansion unless pilot validation passes."
+}
