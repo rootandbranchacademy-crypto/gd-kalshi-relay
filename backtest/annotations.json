@@ -1,0 +1,5 @@
+{
+  "venues": {},
+  "events": {},
+  "note": "Outcome-hidden evidence needed. Venue keys are ESPN venue IDs with lat, lon, source, verified=true. Event keys are Kalshi event tickers with scheduled_start_utc, schedule_source, schedule_available_at_utc, sportsbook_favorite_team_id, sportsbook_source, sportsbook_available_at_utc, and syllables_by_team_id (each team maps canonical name words to candidate syllable arrays). Current/closing odds without a historical availability timestamp are not accepted."
+}
