@@ -54,6 +54,7 @@ jobs:
       - name: Build pinned Swiss Ephemeris source and verify ephemerides
         run: |
           mkdir -p .runtime/ephe
+          python3 -m pip install setuptools
           python3 -m pip download pyswisseph==2.10.3.2 --no-deps --no-binary :all: -d .runtime
           echo 'c54c305e83dbd5d2b71e58d8a69d8ee41de24c4d3328ce09e2af860a3537624d  .runtime/pyswisseph-2.10.3.2.tar.gz' | sha256sum -c -
           tar -xzf .runtime/pyswisseph-2.10.3.2.tar.gz -C .runtime
@@ -106,6 +107,7 @@ jobs:
       - name: Publish compact relay results
         if: always()
         run: |
+          if [ ! -d data/backtest ]; then exit 0; fi
           git config user.name gd-backtest-bot
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           find data/backtest -type l -name raw -delete
