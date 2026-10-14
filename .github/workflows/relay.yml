@@ -1,0 +1,46 @@
+name: Kalshi + ESPN data relay
+
+on:
+  schedule:
+    # Every 30 min, 11:00–15:30 UTC = 4:00–8:30 a.m. PDT (3:00–7:30 a.m. PST).
+    # GitHub may start scheduled runs 5–20 min late; the window covers that.
+    - cron: "*/30 11-15 * * *"
+    # Evening pass for settling late games.
+    - cron: "15 7 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relay
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch Kalshi and ESPN
+        run: python3 scripts/fetch_slate.py .
+      - name: Commit data
+        run: |
+          git config user.name "gd-relay-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -m "data: relay $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash
+          git push
+      - name: Prune snapshots older than 30 days
+        run: |
+          cutoff=$(date -u -d '30 days ago' +%Y-%m-%d)
+          for d in data/snapshots/*/; do
+            n=$(basename "$d"); [[ "$n" < "$cutoff" ]] && git rm -rq "$d" || true
+          done
+          git diff --cached --quiet && exit 0
+          git commit -m "data: prune snapshots before $cutoff" && git push
