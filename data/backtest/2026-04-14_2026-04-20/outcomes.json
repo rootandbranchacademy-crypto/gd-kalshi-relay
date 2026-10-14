@@ -1,0 +1,3938 @@
+{
+  "KXMLBGAME-26APR141840CHCPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:59:20.270484Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840CHCPHI-CHC"
+      },
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:59:20.270484Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840CHCPHI-PHI"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "10",
+        "winner": true
+      },
+      "22": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR141840KCDET": {
+    "espn_final": true,
+    "kalshi": {
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:08:19.905304Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840KCDET-DET"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:08:19.905304Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840KCDET-KC"
+      }
+    },
+    "teams": {
+      "6": {
+        "score": "2",
+        "winner": true
+      },
+      "7": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR141840SFCIN": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:13:49.96515Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840SFCIN-CIN"
+      },
+      "26": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:13:49.96515Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840SFCIN-SF"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "2",
+        "winner": true
+      },
+      "26": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR141840WSHPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "20": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T02:14:00.133112Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840WSHPIT-WSH"
+      },
+      "23": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T02:14:00.133112Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141840WSHPIT-PIT"
+      }
+    },
+    "teams": {
+      "20": {
+        "score": "5",
+        "winner": true
+      },
+      "23": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR141905LAANYY": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T02:14:00.072373Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141905LAANYY-NYY"
+      },
+      "3": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T02:14:00.072373Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141905LAANYY-LAA"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "1",
+        "winner": false
+      },
+      "3": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR141915MIAATL": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:59:20.221885Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141915MIAATL-ATL"
+      },
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:59:20.221885Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141915MIAATL-MIA"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "6",
+        "winner": true
+      },
+      "28": {
+        "score": "5",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR141940BOSMIN": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T02:23:40.000472Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141940BOSMIN-BOS"
+      },
+      "9": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T02:23:40.000472Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141940BOSMIN-MIN"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "0",
+        "winner": false
+      },
+      "9": {
+        "score": "6",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR141940TORMIL": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T03:14:47.110246Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141940TORMIL-TOR"
+      },
+      "8": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T03:14:47.110246Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141940TORMIL-MIL"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "9",
+        "winner": true
+      },
+      "8": {
+        "score": "7",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR141945CLESTL": {
+    "espn_final": true,
+    "kalshi": {
+      "24": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T02:53:20.09537Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141945CLESTL-STL"
+      },
+      "5": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T02:53:20.09537Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR141945CLESTL-CLE"
+      }
+    },
+    "teams": {
+      "24": {
+        "score": "6",
+        "winner": true
+      },
+      "5": {
+        "score": "5",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR142010COLHOU": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T03:23:20.008886Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142010COLHOU-HOU"
+      },
+      "27": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T03:23:20.008886Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142010COLHOU-COL"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "7",
+        "winner": true
+      },
+      "27": {
+        "score": "6",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR142140SEASD": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T04:09:30.145192Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142140SEASD-SEA"
+      },
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T04:09:30.145192Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142140SEASD-SD"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "1",
+        "winner": false
+      },
+      "25": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR142140TEXATH": {
+    "espn_final": true,
+    "kalshi": {
+      "11": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T04:33:20.019669Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142140TEXATH-ATH"
+      },
+      "13": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T04:33:20.019669Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142140TEXATH-TEX"
+      }
+    },
+    "teams": {
+      "11": {
+        "score": "2",
+        "winner": true
+      },
+      "13": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR142210NYMLAD": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T04:23:10.022992Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142210NYMLAD-LAD"
+      },
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T04:23:10.022992Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR142210NYMLAD-NYM"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "2",
+        "winner": true
+      },
+      "21": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151315CLESTL": {
+    "espn_final": true,
+    "kalshi": {
+      "24": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T20:24:00.05777Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151315CLESTL-STL"
+      },
+      "5": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T20:24:00.05777Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151315CLESTL-CLE"
+      }
+    },
+    "teams": {
+      "24": {
+        "score": "5",
+        "winner": true
+      },
+      "5": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151340BOSMIN": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T20:34:10.007873Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151340BOSMIN-BOS"
+      },
+      "9": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T20:34:10.007873Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151340BOSMIN-MIN"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "9",
+        "winner": true
+      },
+      "9": {
+        "score": "5",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151840CHCPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T01:28:00.009266Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840CHCPHI-CHC"
+      },
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T01:28:00.009266Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840CHCPHI-PHI"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "11",
+        "winner": true
+      },
+      "22": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151840KCDET": {
+    "espn_final": true,
+    "kalshi": {
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T01:13:40.28739Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840KCDET-DET"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T01:13:40.28739Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840KCDET-KC"
+      }
+    },
+    "teams": {
+      "6": {
+        "score": "2",
+        "winner": true
+      },
+      "7": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151840SFCIN": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T01:13:40.252073Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840SFCIN-CIN"
+      },
+      "26": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T01:13:40.252073Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840SFCIN-SF"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "8",
+        "winner": true
+      },
+      "26": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151840WSHPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T01:04:10.113749Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840WSHPIT-WSH"
+      },
+      "23": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T01:04:10.113749Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151840WSHPIT-PIT"
+      }
+    },
+    "teams": {
+      "20": {
+        "score": "0",
+        "winner": false
+      },
+      "23": {
+        "score": "2",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR151905LAANYY": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T01:43:20.031981Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151905LAANYY-NYY"
+      },
+      "3": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T01:43:20.031981Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151905LAANYY-LAA"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "5",
+        "winner": true
+      },
+      "3": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151915MIAATL": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:13:50.002392Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151915MIAATL-ATL"
+      },
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:13:50.002392Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151915MIAATL-MIA"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "6",
+        "winner": true
+      },
+      "28": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR151940TORMIL": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:17:59.962337Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151940TORMIL-TOR"
+      },
+      "8": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:17:59.962337Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR151940TORMIL-MIL"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "1",
+        "winner": false
+      },
+      "8": {
+        "score": "2",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR152010COLHOU": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T03:03:40.182005Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152010COLHOU-HOU"
+      },
+      "27": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T03:03:40.182005Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152010COLHOU-COL"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "3",
+        "winner": true
+      },
+      "27": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR152140SEASD": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T04:53:10.106332Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152140SEASD-SEA"
+      },
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T04:53:10.106332Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152140SEASD-SD"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "6",
+        "winner": false
+      },
+      "25": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR152140TEXATH": {
+    "espn_final": true,
+    "kalshi": {
+      "11": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T04:48:00.029442Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152140TEXATH-ATH"
+      },
+      "13": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T04:48:00.029442Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152140TEXATH-TEX"
+      }
+    },
+    "teams": {
+      "11": {
+        "score": "6",
+        "winner": true
+      },
+      "13": {
+        "score": "5",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR152210NYMLAD": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T04:58:00.168232Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152210NYMLAD-LAD"
+      },
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T04:58:00.168232Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR152210NYMLAD-NYM"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "8",
+        "winner": true
+      },
+      "21": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR161235WSHPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "20": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T20:33:44.456469Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161235WSHPIT-WSH"
+      },
+      "23": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T20:33:44.456469Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161235WSHPIT-PIT"
+      }
+    },
+    "teams": {
+      "20": {
+        "score": "8",
+        "winner": true
+      },
+      "23": {
+        "score": "7",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR161240SFCIN": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T19:18:04.325479Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161240SFCIN-CIN"
+      },
+      "26": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T19:18:04.325479Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161240SFCIN-SF"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "0",
+        "winner": false
+      },
+      "26": {
+        "score": "3",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR161310KCDET": {
+    "espn_final": true,
+    "kalshi": {
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T22:17:54.381535Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161310KCDET-DET"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T22:17:54.381535Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161310KCDET-KC"
+      }
+    },
+    "teams": {
+      "6": {
+        "score": "10",
+        "winner": true
+      },
+      "7": {
+        "score": "9",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR161335LAANYY": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T20:57:54.432316Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161335LAANYY-NYY"
+      },
+      "3": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T20:57:54.432316Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161335LAANYY-LAA"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "4",
+        "winner": false
+      },
+      "3": {
+        "score": "11",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR161340TORMIL": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T20:04:04.293236Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161340TORMIL-TOR"
+      },
+      "8": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T20:04:04.293236Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161340TORMIL-MIL"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "1",
+        "winner": false
+      },
+      "8": {
+        "score": "2",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR161505TEXATH": {
+    "espn_final": true,
+    "kalshi": {
+      "11": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T22:27:44.438845Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161505TEXATH-ATH"
+      },
+      "13": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T22:27:44.438845Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161505TEXATH-TEX"
+      }
+    },
+    "teams": {
+      "11": {
+        "score": "6",
+        "winner": false
+      },
+      "13": {
+        "score": "9",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR161810BALCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T00:47:54.651996Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161810BALCLE-BAL"
+      },
+      "5": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T00:47:54.651996Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR161810BALCLE-CLE"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "2",
+        "winner": false
+      },
+      "5": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR162010COLHOU": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T03:30:24.482639Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR162010COLHOU-HOU"
+      },
+      "27": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T03:30:24.482639Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR162010COLHOU-COL"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "2",
+        "winner": false
+      },
+      "27": {
+        "score": "3",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR162040SEASD": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T03:33:14.598145Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR162040SEASD-SEA"
+      },
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T03:33:14.598145Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR162040SEASD-SD"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "2",
+        "winner": false
+      },
+      "25": {
+        "score": "5",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR171420NYMCHC": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T21:05:04.444502Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171420NYMCHC-CHC"
+      },
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T21:05:04.444502Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171420NYMCHC-NYM"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "12",
+        "winner": true
+      },
+      "21": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR171810BALCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T01:28:04.379437Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171810BALCLE-BAL"
+      },
+      "5": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T01:28:04.379437Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171810BALCLE-CLE"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "6",
+        "winner": true
+      },
+      "5": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR171840ATLPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T01:23:54.365794Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171840ATLPHI-ATL"
+      },
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T01:23:54.365794Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171840ATLPHI-PHI"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "9",
+        "winner": true
+      },
+      "22": {
+        "score": "0",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR171845SFWSH": {
+    "espn_final": true,
+    "kalshi": {
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T01:48:14.293285Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171845SFWSH-WSH"
+      },
+      "26": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T01:48:14.293285Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171845SFWSH-SF"
+      }
+    },
+    "teams": {
+      "20": {
+        "score": "5",
+        "winner": false
+      },
+      "26": {
+        "score": "10",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR171845TBPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "23": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T01:38:14.3603Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171845TBPIT-PIT"
+      },
+      "30": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T01:38:14.3603Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171845TBPIT-TB"
+      }
+    },
+    "teams": {
+      "23": {
+        "score": "5",
+        "winner": true
+      },
+      "30": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR171905KCNYY": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T01:53:24.361632Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171905KCNYY-NYY"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T01:53:24.361632Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171905KCNYY-KC"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "4",
+        "winner": true
+      },
+      "7": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR171910MILMIA": {
+    "espn_final": true,
+    "kalshi": {
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T02:43:34.391365Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171910MILMIA-MIA"
+      },
+      "8": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T02:43:34.391365Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171910MILMIA-MIL"
+      }
+    },
+    "teams": {
+      "28": {
+        "score": "5",
+        "winner": false
+      },
+      "8": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR171915DETBOS": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T02:03:34.365375Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171915DETBOS-BOS"
+      },
+      "6": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T02:03:34.365375Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR171915DETBOS-DET"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "1",
+        "winner": true
+      },
+      "6": {
+        "score": "0",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR172010CINMIN": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T02:53:34.349094Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172010CINMIN-CIN"
+      },
+      "9": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T02:53:34.349094Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172010CINMIN-MIN"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "2",
+        "winner": true
+      },
+      "9": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR172010STLHOU": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T03:07:54.345021Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172010STLHOU-HOU"
+      },
+      "24": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T03:07:54.345021Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172010STLHOU-STL"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "4",
+        "winner": false
+      },
+      "24": {
+        "score": "9",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR172040LADCOL": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T03:23:24.385002Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172040LADCOL-LAD"
+      },
+      "27": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T03:23:24.385002Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172040LADCOL-COL"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "7",
+        "winner": true
+      },
+      "27": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR172138SDLAA": {
+    "espn_final": true,
+    "kalshi": {
+      "25": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T04:47:54.437333Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172138SDLAA-SD"
+      },
+      "3": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T04:47:54.437333Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172138SDLAA-LAA"
+      }
+    },
+    "teams": {
+      "25": {
+        "score": "0",
+        "winner": false
+      },
+      "3": {
+        "score": "8",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR172140TEXSEA": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T05:03:34.393957Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172140TEXSEA-SEA"
+      },
+      "13": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T05:03:34.393957Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR172140TEXSEA-TEX"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "0",
+        "winner": false
+      },
+      "13": {
+        "score": "5",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181335KCNYY": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T20:18:24.358454Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181335KCNYY-NYY"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T20:18:24.358454Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181335KCNYY-KC"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "13",
+        "winner": true
+      },
+      "7": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR181410CINMIN": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T21:18:14.32276Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181410CINMIN-CIN"
+      },
+      "9": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T21:18:14.32276Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181410CINMIN-MIN"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "5",
+        "winner": true
+      },
+      "9": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR181420NYMCHC": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T21:04:14.325717Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181420NYMCHC-CHC"
+      },
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T21:04:14.325717Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181420NYMCHC-NYM"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "4",
+        "winner": true
+      },
+      "21": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR181605SFWSH": {
+    "espn_final": true,
+    "kalshi": {
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T23:48:05.030698Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181605SFWSH-WSH"
+      },
+      "26": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T23:48:05.030698Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181605SFWSH-SF"
+      }
+    },
+    "teams": {
+      "20": {
+        "score": "6",
+        "winner": false
+      },
+      "26": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181605TBPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "23": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T02:27:54.529974Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181605TBPIT-PIT"
+      },
+      "30": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T02:27:54.529974Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181605TBPIT-TB"
+      }
+    },
+    "teams": {
+      "23": {
+        "score": "7",
+        "winner": false
+      },
+      "30": {
+        "score": "8",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181610DETBOS": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T22:53:44.395654Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181610DETBOS-BOS"
+      },
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T22:53:44.395654Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181610DETBOS-DET"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "1",
+        "winner": false
+      },
+      "6": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181610MILMIA": {
+    "espn_final": true,
+    "kalshi": {
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T23:13:44.596265Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181610MILMIA-MIA"
+      },
+      "8": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T23:13:44.596265Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181610MILMIA-MIL"
+      }
+    },
+    "teams": {
+      "28": {
+        "score": "2",
+        "winner": false
+      },
+      "8": {
+        "score": "5",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181810BALCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T00:44:44.742148Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181810BALCLE-BAL"
+      },
+      "5": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T00:44:44.742148Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181810BALCLE-CLE"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "2",
+        "winner": false
+      },
+      "5": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181910STLHOU": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T02:13:24.294172Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181910STLHOU-HOU"
+      },
+      "24": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T02:13:24.294172Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181910STLHOU-STL"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "5",
+        "winner": false
+      },
+      "24": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR181915ATLPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T02:08:04.467206Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181915ATLPHI-ATL"
+      },
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T02:08:04.467206Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181915ATLPHI-PHI"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "3",
+        "winner": true
+      },
+      "22": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR181915TEXSEA": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T02:37:54.930923Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181915TEXSEA-SEA"
+      },
+      "13": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T02:37:54.930923Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR181915TEXSEA-TEX"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "7",
+        "winner": true
+      },
+      "13": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR182010LADCOL": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T03:03:24.354835Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR182010LADCOL-LAD"
+      },
+      "27": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T03:03:24.354835Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR182010LADCOL-COL"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "3",
+        "winner": false
+      },
+      "27": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR182138SDLAA": {
+    "espn_final": true,
+    "kalshi": {
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T04:47:54.461821Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR182138SDLAA-SD"
+      },
+      "3": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T04:47:54.461821Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR182138SDLAA-LAA"
+      }
+    },
+    "teams": {
+      "25": {
+        "score": "4",
+        "winner": true
+      },
+      "3": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191335DETBOS": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T23:23:24.961773Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335DETBOS-BOS"
+      },
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T23:23:24.961773Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335DETBOS-DET"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "2",
+        "winner": false
+      },
+      "6": {
+        "score": "6",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR191335KCNYY": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T23:03:34.755134Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335KCNYY-NYY"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T23:03:34.755134Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335KCNYY-KC"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "7",
+        "winner": true
+      },
+      "7": {
+        "score": "0",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191335SFWSH": {
+    "espn_final": true,
+    "kalshi": {
+      "20": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T20:13:44.405956Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335SFWSH-WSH"
+      },
+      "26": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T20:13:44.405956Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335SFWSH-SF"
+      }
+    },
+    "teams": {
+      "20": {
+        "score": "3",
+        "winner": true
+      },
+      "26": {
+        "score": "0",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191335TBPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "23": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T20:18:34.299253Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335TBPIT-PIT"
+      },
+      "30": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T20:18:34.299253Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191335TBPIT-TB"
+      }
+    },
+    "teams": {
+      "23": {
+        "score": "6",
+        "winner": true
+      },
+      "30": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191340BALCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T20:28:04.750561Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191340BALCLE-BAL"
+      },
+      "5": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T20:28:04.750561Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191340BALCLE-CLE"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "4",
+        "winner": false
+      },
+      "5": {
+        "score": "8",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR191340MILMIA": {
+    "espn_final": true,
+    "kalshi": {
+      "28": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T20:48:24.375493Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191340MILMIA-MIA"
+      },
+      "8": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T20:48:24.375493Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191340MILMIA-MIL"
+      }
+    },
+    "teams": {
+      "28": {
+        "score": "5",
+        "winner": true
+      },
+      "8": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191410CINMIN": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T21:38:04.394648Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191410CINMIN-CIN"
+      },
+      "9": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T21:38:04.394648Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191410CINMIN-MIN"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "7",
+        "winner": true
+      },
+      "9": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191410STLHOU": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T21:33:34.904027Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191410STLHOU-HOU"
+      },
+      "24": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T21:33:34.904027Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191410STLHOU-STL"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "5",
+        "winner": false
+      },
+      "24": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR191420NYMCHC": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T21:13:44.421408Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191420NYMCHC-CHC"
+      },
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T21:13:44.421408Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191420NYMCHC-NYM"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "2",
+        "winner": true
+      },
+      "21": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191510LADCOL": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T22:27:54.452076Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191510LADCOL-LAD"
+      },
+      "27": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T22:27:54.452076Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191510LADCOL-COL"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "6",
+        "winner": false
+      },
+      "27": {
+        "score": "9",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR191607SDLAA": {
+    "espn_final": true,
+    "kalshi": {
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T23:13:14.621597Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191607SDLAA-SD"
+      },
+      "3": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T23:13:14.621597Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191607SDLAA-LAA"
+      }
+    },
+    "teams": {
+      "25": {
+        "score": "2",
+        "winner": true
+      },
+      "3": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191610TEXSEA": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T22:53:14.340209Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191610TEXSEA-SEA"
+      },
+      "13": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T22:53:14.340209Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191610TEXSEA-TEX"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "5",
+        "winner": true
+      },
+      "13": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR191920ATLPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-20T02:33:24.552975Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191920ATLPHI-ATL"
+      },
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-20T02:33:24.552975Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR191920ATLPHI-PHI"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "4",
+        "winner": true
+      },
+      "22": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR201110DETBOS": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "yes",
+        "settlement_ts": "2026-04-20T18:27:03.035357Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201110DETBOS-BOS"
+      },
+      "6": {
+        "result": "no",
+        "settlement_ts": "2026-04-20T18:27:03.035357Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201110DETBOS-DET"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "8",
+        "winner": true
+      },
+      "6": {
+        "score": "6",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR201810HOUCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T01:05:23.125151Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201810HOUCLE-HOU"
+      },
+      "5": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T01:05:23.125151Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201810HOUCLE-CLE"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "9",
+        "winner": true
+      },
+      "5": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR201840CINTB": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T01:13:23.593836Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201840CINTB-CIN"
+      },
+      "30": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T01:13:23.593836Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201840CINTB-TB"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "6",
+        "winner": true
+      },
+      "30": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR201840STLMIA": {
+    "espn_final": true,
+    "kalshi": {
+      "24": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T01:23:23.061078Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201840STLMIA-STL"
+      },
+      "28": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T01:23:23.061078Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201840STLMIA-MIA"
+      }
+    },
+    "teams": {
+      "24": {
+        "score": "3",
+        "winner": false
+      },
+      "28": {
+        "score": "5",
+        "winner": true
+      }
+    }
+  },
+  "KXMLBGAME-26APR201845ATLWSH": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T01:23:23.038859Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201845ATLWSH-ATL"
+      },
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T01:23:23.038859Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201845ATLWSH-WSH"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "9",
+        "winner": true
+      },
+      "20": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR201940BALKC": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T03:43:33.10015Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201940BALKC-BAL"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T03:43:33.10015Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201940BALKC-KC"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "7",
+        "winner": true
+      },
+      "7": {
+        "score": "5",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR201940PHICHC": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T02:28:12.962229Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201940PHICHC-CHC"
+      },
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T02:28:12.962229Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR201940PHICHC-PHI"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "5",
+        "winner": true
+      },
+      "22": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR202040LADCOL": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T03:37:53.095424Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR202040LADCOL-LAD"
+      },
+      "27": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T03:37:53.095424Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR202040LADCOL-COL"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "12",
+        "winner": true
+      },
+      "27": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR202138TORLAA": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T04:33:53.103368Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR202138TORLAA-TOR"
+      },
+      "3": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T04:33:53.103368Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR202138TORLAA-LAA"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "5",
+        "winner": true
+      },
+      "3": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXMLBGAME-26APR202140ATHSEA": {
+    "espn_final": true,
+    "kalshi": {
+      "11": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T04:33:53.064775Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR202140ATHSEA-ATH"
+      },
+      "12": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T04:33:53.064775Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXMLBGAME-26APR202140ATHSEA-SEA"
+      }
+    },
+    "teams": {
+      "11": {
+        "score": "6",
+        "winner": true
+      },
+      "12": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXNBAGAME-26APR14MIACHA": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T02:24:00.505308Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR14MIACHA-MIA"
+      },
+      "30": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T02:24:00.505308Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR14MIACHA-CHA"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "126",
+        "winner": false
+      },
+      "30": {
+        "score": "127",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR14PORPHX": {
+    "espn_final": true,
+    "kalshi": {
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T04:49:30.426842Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR14PORPHX-PHX"
+      },
+      "22": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T04:49:30.426842Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR14PORPHX-POR"
+      }
+    },
+    "teams": {
+      "21": {
+        "score": "110",
+        "winner": false
+      },
+      "22": {
+        "score": "114",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR15ORLPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:16:50.17328Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR15ORLPHI-ORL"
+      },
+      "20": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:16:50.17328Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR15ORLPHI-PHI"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "97",
+        "winner": false
+      },
+      "20": {
+        "score": "109",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR17CHAORL": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T02:24:54.615406Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR17CHAORL-ORL"
+      },
+      "30": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T02:24:54.615406Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR17CHAORL-CHA"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "121",
+        "winner": true
+      },
+      "30": {
+        "score": "90",
+        "winner": false
+      }
+    }
+  },
+  "KXNBAGAME-26APR18HOULAL": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T03:22:54.71972Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR18HOULAL-HOU"
+      },
+      "13": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T03:22:54.71972Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR18HOULAL-LAL"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "98",
+        "winner": false
+      },
+      "13": {
+        "score": "107",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR18MINDEN": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T22:17:34.618741Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR18MINDEN-MIN"
+      },
+      "7": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T22:17:34.618741Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR18MINDEN-DEN"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "105",
+        "winner": false
+      },
+      "7": {
+        "score": "116",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR18TORCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T19:52:24.44002Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR18TORCLE-TOR"
+      },
+      "5": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T19:52:24.44002Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR18TORCLE-CLE"
+      }
+    },
+    "teams": {
+      "28": {
+        "score": "113",
+        "winner": false
+      },
+      "5": {
+        "score": "126",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR19ORLDET": {
+    "espn_final": true,
+    "kalshi": {
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-20T01:08:44.788638Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR19ORLDET-ORL"
+      },
+      "8": {
+        "result": "no",
+        "settlement_ts": "2026-04-20T01:08:44.788638Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR19ORLDET-DET"
+      }
+    },
+    "teams": {
+      "19": {
+        "score": "112",
+        "winner": true
+      },
+      "8": {
+        "score": "101",
+        "winner": false
+      }
+    }
+  },
+  "KXNBAGAME-26APR19PHIBOS": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T19:37:14.48219Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR19PHIBOS-BOS"
+      },
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T19:37:14.48219Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR19PHIBOS-PHI"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "123",
+        "winner": true
+      },
+      "20": {
+        "score": "91",
+        "winner": false
+      }
+    }
+  },
+  "KXNBAGAME-26APR19PHXOKC": {
+    "espn_final": true,
+    "kalshi": {
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T22:09:14.364107Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR19PHXOKC-PHX"
+      },
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T22:09:14.364107Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR19PHXOKC-OKC"
+      }
+    },
+    "teams": {
+      "21": {
+        "score": "84",
+        "winner": false
+      },
+      "25": {
+        "score": "119",
+        "winner": true
+      }
+    }
+  },
+  "KXNBAGAME-26APR20MINDEN": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T05:29:13.93901Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR20MINDEN-MIN"
+      },
+      "7": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T05:29:13.93901Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR20MINDEN-DEN"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "119",
+        "winner": true
+      },
+      "7": {
+        "score": "114",
+        "winner": false
+      }
+    }
+  },
+  "KXNBAGAME-26APR20TORCLE": {
+    "espn_final": true,
+    "kalshi": {
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T01:39:05.813695Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR20TORCLE-TOR"
+      },
+      "5": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T01:39:05.813695Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNBAGAME-26APR20TORCLE-CLE"
+      }
+    },
+    "teams": {
+      "28": {
+        "score": "105",
+        "winner": false
+      },
+      "5": {
+        "score": "115",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR14ANAMIN": {
+    "espn_final": true,
+    "kalshi": {
+      "25": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T03:13:10.035293Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14ANAMIN-ANA"
+      },
+      "30": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T03:13:10.035293Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14ANAMIN-MIN"
+      }
+    },
+    "teams": {
+      "25": {
+        "score": "2",
+        "winner": false
+      },
+      "30": {
+        "score": "3",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR14CARNYI": {
+    "espn_final": true,
+    "kalshi": {
+      "12": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:57:39.957915Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14CARNYI-NYI"
+      },
+      "7": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:57:39.957915Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14CARNYI-CAR"
+      }
+    },
+    "teams": {
+      "12": {
+        "score": "1",
+        "winner": false
+      },
+      "7": {
+        "score": "2",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR14COLCGY": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T03:56:29.957299Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14COLCGY-COL"
+      },
+      "3": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T03:56:29.957299Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14COLCGY-CGY"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "3",
+        "winner": true
+      },
+      "3": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR14LAVAN": {
+    "espn_final": true,
+    "kalshi": {
+      "22": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T05:16:29.902144Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14LAVAN-VAN"
+      },
+      "8": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T05:16:29.902144Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14LAVAN-LA"
+      }
+    },
+    "teams": {
+      "22": {
+        "score": "4",
+        "winner": true
+      },
+      "8": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR14MTLPHI": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:57:39.984673Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14MTLPHI-MTL"
+      },
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:57:39.984673Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14MTLPHI-PHI"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "2",
+        "winner": false
+      },
+      "15": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR14NJBOS": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T02:03:09.886397Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14NJBOS-BOS"
+      },
+      "11": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T02:03:09.886397Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14NJBOS-NJ"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "4",
+        "winner": true
+      },
+      "11": {
+        "score": "0",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR14PITSTL": {
+    "espn_final": true,
+    "kalshi": {
+      "16": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T05:06:29.901861Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14PITSTL-PIT"
+      },
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T05:06:29.901861Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14PITSTL-STL"
+      }
+    },
+    "teams": {
+      "16": {
+        "score": "5",
+        "winner": false
+      },
+      "19": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR14WPGUTA": {
+    "espn_final": true,
+    "kalshi": {
+      "129764": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T04:02:19.93918Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14WPGUTA-UTA"
+      },
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T04:02:19.93918Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14WPGUTA-WPG"
+      }
+    },
+    "teams": {
+      "129764": {
+        "score": "5",
+        "winner": true
+      },
+      "28": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR14WSHCBJ": {
+    "espn_final": true,
+    "kalshi": {
+      "23": {
+        "result": "yes",
+        "settlement_ts": "2026-04-15T01:57:39.997305Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14WSHCBJ-WSH"
+      },
+      "29": {
+        "result": "no",
+        "settlement_ts": "2026-04-15T01:57:39.997305Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR14WSHCBJ-CBJ"
+      }
+    },
+    "teams": {
+      "23": {
+        "score": "2",
+        "winner": true
+      },
+      "29": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR15DALBUF": {
+    "espn_final": true,
+    "kalshi": {
+      "2": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:06:20.156763Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15DALBUF-BUF"
+      },
+      "9": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:06:20.156763Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15DALBUF-DAL"
+      }
+    },
+    "teams": {
+      "2": {
+        "score": "3",
+        "winner": false
+      },
+      "9": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR15DETFLA": {
+    "espn_final": true,
+    "kalshi": {
+      "26": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:02:40.074264Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15DETFLA-FLA"
+      },
+      "5": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:02:40.074264Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15DETFLA-DET"
+      }
+    },
+    "teams": {
+      "26": {
+        "score": "8",
+        "winner": true
+      },
+      "5": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR15NYRTB": {
+    "espn_final": true,
+    "kalshi": {
+      "13": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:16:30.005822Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15NYRTB-NYR"
+      },
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:16:30.005822Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15NYRTB-TB"
+      }
+    },
+    "teams": {
+      "13": {
+        "score": "4",
+        "winner": true
+      },
+      "20": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR15SEAVGK": {
+    "espn_final": true,
+    "kalshi": {
+      "124292": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T04:56:30.344818Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15SEAVGK-SEA"
+      },
+      "37": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T04:56:30.344818Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15SEAVGK-VGK"
+      }
+    },
+    "teams": {
+      "124292": {
+        "score": "1",
+        "winner": false
+      },
+      "37": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR15SJCHI": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T03:26:20.000441Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15SJCHI-SJ"
+      },
+      "4": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T03:26:20.000441Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15SJCHI-CHI"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "2",
+        "winner": false
+      },
+      "4": {
+        "score": "5",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR15TOROTT": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "yes",
+        "settlement_ts": "2026-04-16T02:32:09.887477Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15TOROTT-OTT"
+      },
+      "21": {
+        "result": "no",
+        "settlement_ts": "2026-04-16T02:32:09.887477Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR15TOROTT-TOR"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "3",
+        "winner": true
+      },
+      "21": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR16ANANSH": {
+    "espn_final": true,
+    "kalshi": {
+      "25": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T03:12:54.405924Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16ANANSH-ANA"
+      },
+      "27": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T03:12:54.405924Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16ANANSH-NSH"
+      }
+    },
+    "teams": {
+      "25": {
+        "score": "5",
+        "winner": true
+      },
+      "27": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR16LACGY": {
+    "espn_final": true,
+    "kalshi": {
+      "3": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T03:52:08.25333Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16LACGY-CGY"
+      },
+      "8": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T03:52:08.25333Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16LACGY-LA"
+      }
+    },
+    "teams": {
+      "3": {
+        "score": "3",
+        "winner": true
+      },
+      "8": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR16SEACOL": {
+    "espn_final": true,
+    "kalshi": {
+      "124292": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T05:21:44.527728Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16SEACOL-SEA"
+      },
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T05:21:44.527728Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16SEACOL-COL"
+      }
+    },
+    "teams": {
+      "124292": {
+        "score": "0",
+        "winner": false
+      },
+      "17": {
+        "score": "2",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR16SJWPG": {
+    "espn_final": true,
+    "kalshi": {
+      "18": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T02:56:24.78716Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16SJWPG-SJ"
+      },
+      "28": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T02:56:24.78716Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16SJWPG-WPG"
+      }
+    },
+    "teams": {
+      "18": {
+        "score": "6",
+        "winner": true
+      },
+      "28": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR16STLUTA": {
+    "espn_final": true,
+    "kalshi": {
+      "129764": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T02:42:08.966822Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16STLUTA-UTA"
+      },
+      "19": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T02:42:08.966822Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16STLUTA-STL"
+      }
+    },
+    "teams": {
+      "129764": {
+        "score": "3",
+        "winner": false
+      },
+      "19": {
+        "score": "5",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR16VANEDM": {
+    "espn_final": true,
+    "kalshi": {
+      "22": {
+        "result": "no",
+        "settlement_ts": "2026-04-17T04:06:24.481551Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16VANEDM-VAN"
+      },
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-17T04:06:24.481551Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR16VANEDM-EDM"
+      }
+    },
+    "teams": {
+      "22": {
+        "score": "1",
+        "winner": false
+      },
+      "6": {
+        "score": "6",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR18MINDAL": {
+    "espn_final": true,
+    "kalshi": {
+      "30": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T00:32:24.328411Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR18MINDAL-MIN"
+      },
+      "9": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T00:32:24.328411Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR18MINDAL-DAL"
+      }
+    },
+    "teams": {
+      "30": {
+        "score": "6",
+        "winner": true
+      },
+      "9": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR18OTTCAR": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "no",
+        "settlement_ts": "2026-04-18T22:19:34.623841Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR18OTTCAR-OTT"
+      },
+      "7": {
+        "result": "yes",
+        "settlement_ts": "2026-04-18T22:19:34.623841Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR18OTTCAR-CAR"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "0",
+        "winner": false
+      },
+      "7": {
+        "score": "2",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR18PHIPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T02:58:24.478164Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR18PHIPIT-PHI"
+      },
+      "16": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T02:58:24.478164Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR18PHIPIT-PIT"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "3",
+        "winner": true
+      },
+      "16": {
+        "score": "2",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR19BOSBUF": {
+    "espn_final": true,
+    "kalshi": {
+      "1": {
+        "result": "no",
+        "settlement_ts": "2026-04-20T02:30:24.719103Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19BOSBUF-BOS"
+      },
+      "2": {
+        "result": "yes",
+        "settlement_ts": "2026-04-20T02:30:24.719103Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19BOSBUF-BUF"
+      }
+    },
+    "teams": {
+      "1": {
+        "score": "3",
+        "winner": false
+      },
+      "2": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR19LACOL": {
+    "espn_final": true,
+    "kalshi": {
+      "17": {
+        "result": "yes",
+        "settlement_ts": "2026-04-19T21:56:04.300903Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19LACOL-COL"
+      },
+      "8": {
+        "result": "no",
+        "settlement_ts": "2026-04-19T21:56:04.300903Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19LACOL-LA"
+      }
+    },
+    "teams": {
+      "17": {
+        "score": "2",
+        "winner": true
+      },
+      "8": {
+        "score": "1",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR19MTLTB": {
+    "espn_final": true,
+    "kalshi": {
+      "10": {
+        "result": "yes",
+        "settlement_ts": "2026-04-20T01:06:34.329069Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19MTLTB-MTL"
+      },
+      "20": {
+        "result": "no",
+        "settlement_ts": "2026-04-20T01:06:34.329069Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19MTLTB-TB"
+      }
+    },
+    "teams": {
+      "10": {
+        "score": "4",
+        "winner": true
+      },
+      "20": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "KXNHLGAME-26APR19UTAVGK": {
+    "espn_final": true,
+    "kalshi": {
+      "129764": {
+        "result": "no",
+        "settlement_ts": "2026-04-20T05:05:44.469363Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19UTAVGK-UTA"
+      },
+      "37": {
+        "result": "yes",
+        "settlement_ts": "2026-04-20T05:05:44.469363Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR19UTAVGK-VGK"
+      }
+    },
+    "teams": {
+      "129764": {
+        "score": "2",
+        "winner": false
+      },
+      "37": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR20ANAEDM": {
+    "espn_final": true,
+    "kalshi": {
+      "25": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T05:08:53.071023Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20ANAEDM-ANA"
+      },
+      "6": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T05:08:53.071023Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20ANAEDM-EDM"
+      }
+    },
+    "teams": {
+      "25": {
+        "score": "3",
+        "winner": false
+      },
+      "6": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR20MINDAL": {
+    "espn_final": true,
+    "kalshi": {
+      "30": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T04:48:03.045652Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20MINDAL-MIN"
+      },
+      "9": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T04:48:03.045652Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20MINDAL-DAL"
+      }
+    },
+    "teams": {
+      "30": {
+        "score": "2",
+        "winner": false
+      },
+      "9": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR20OTTCAR": {
+    "espn_final": true,
+    "kalshi": {
+      "14": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T03:46:33.012822Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20OTTCAR-OTT"
+      },
+      "7": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T03:46:33.012822Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20OTTCAR-CAR"
+      }
+    },
+    "teams": {
+      "14": {
+        "score": "2",
+        "winner": false
+      },
+      "7": {
+        "score": "3",
+        "winner": true
+      }
+    }
+  },
+  "KXNHLGAME-26APR20PHIPIT": {
+    "espn_final": true,
+    "kalshi": {
+      "15": {
+        "result": "yes",
+        "settlement_ts": "2026-04-21T02:01:52.968125Z",
+        "settlement_value_dollars": "1.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20PHIPIT-PHI"
+      },
+      "16": {
+        "result": "no",
+        "settlement_ts": "2026-04-21T02:01:52.968125Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "ticker": "KXNHLGAME-26APR20PHIPIT-PIT"
+      }
+    },
+    "teams": {
+      "15": {
+        "score": "3",
+        "winner": true
+      },
+      "16": {
+        "score": "0",
+        "winner": false
+      }
+    }
+  },
+  "mlb-ESPN-401814932": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "1": {
+        "score": "3",
+        "winner": false
+      },
+      "29": {
+        "score": "4",
+        "winner": true
+      }
+    }
+  },
+  "mlb-ESPN-401814941": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "30": {
+        "score": "8",
+        "winner": true
+      },
+      "4": {
+        "score": "5",
+        "winner": false
+      }
+    }
+  },
+  "mlb-ESPN-401814947": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "1": {
+        "score": "5",
+        "winner": false
+      },
+      "29": {
+        "score": "8",
+        "winner": true
+      }
+    }
+  },
+  "mlb-ESPN-401814956": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "30": {
+        "score": "8",
+        "winner": true
+      },
+      "4": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "mlb-ESPN-401814967": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "30": {
+        "score": "5",
+        "winner": true
+      },
+      "4": {
+        "score": "3",
+        "winner": false
+      }
+    }
+  },
+  "mlb-ESPN-401814982": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "11": {
+        "score": "2",
+        "winner": false
+      },
+      "4": {
+        "score": "9",
+        "winner": true
+      }
+    }
+  },
+  "mlb-ESPN-401814985": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "14": {
+        "score": "3",
+        "winner": false
+      },
+      "29": {
+        "score": "6",
+        "winner": true
+      }
+    }
+  },
+  "mlb-ESPN-401814997": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "11": {
+        "score": "7",
+        "winner": true
+      },
+      "4": {
+        "score": "6",
+        "winner": false
+      }
+    }
+  },
+  "mlb-ESPN-401815000": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "14": {
+        "score": "2",
+        "winner": false
+      },
+      "29": {
+        "score": "6",
+        "winner": true
+      }
+    }
+  },
+  "mlb-ESPN-401815012": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "11": {
+        "score": "4",
+        "winner": false
+      },
+      "4": {
+        "score": "7",
+        "winner": true
+      }
+    }
+  },
+  "mlb-ESPN-401815015": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "14": {
+        "score": "10",
+        "winner": true
+      },
+      "29": {
+        "score": "4",
+        "winner": false
+      }
+    }
+  },
+  "nba-ESPN-401866756": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "12": {
+        "score": "121",
+        "winner": false
+      },
+      "9": {
+        "score": "126",
+        "winner": true
+      }
+    }
+  },
+  "nba-ESPN-401866759": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "21": {
+        "score": "111",
+        "winner": true
+      },
+      "9": {
+        "score": "96",
+        "winner": false
+      }
+    }
+  },
+  "nba-ESPN-401869189": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "1": {
+        "score": "102",
+        "winner": false
+      },
+      "18": {
+        "score": "113",
+        "winner": true
+      }
+    }
+  },
+  "nba-ESPN-401869194": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "22": {
+        "score": "98",
+        "winner": false
+      },
+      "24": {
+        "score": "111",
+        "winner": true
+      }
+    }
+  },
+  "nba-ESPN-401869387": {
+    "espn_final": true,
+    "kalshi": {},
+    "teams": {
+      "1": {
+        "score": "107",
+        "winner": true
+      },
+      "18": {
+        "score": "106",
+        "winner": false
+      }
+    }
+  }
+}

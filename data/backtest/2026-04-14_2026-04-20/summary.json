@@ -1,0 +1,52 @@
+{
+  "claude_performance": null,
+  "collector_errors": [],
+  "discrepancies": 0,
+  "dispositions": {
+    "missing_data": 119,
+    "timing_exclusion": 25
+  },
+  "favorite_baseline_hits": 0,
+  "favorite_baseline_settled": 0,
+  "full_period_ready": false,
+  "games": 144,
+  "gpt_performance": null,
+  "gross_price_proxy": null,
+  "hit_rate": null,
+  "hits": 0,
+  "limitations": [
+    "Retrospective engine replay; not actual GPT/Claude prospective performance. Ranking/tie-break and cutoff are BT1.0 implementation choices. No fees or depth assumed. Current historical schedule/odds records are not proof of their 6 a.m. versions. No automatic six-month expansion unless pilot validation passes.",
+    "Missing-input counts can overlap timing exclusions. Missing-data days are not successful full-method abstentions.",
+    "Current historical schedules may incorporate post-event corrections. Final scores are held separately; this does not erase historical hindsight in metadata.",
+    "GPT/Claude comparison requires separately locked outcome-hidden model selections; none have been generated.",
+    "Candle-close quotes cannot establish historical executable depth or fees. Gross figures, when present, are price-proxy simulations only."
+  ],
+  "misses": 0,
+  "missing_inputs": {
+    "frozen_name_syllables": 144,
+    "paired_quote_before_cutoff": 16,
+    "timestamped_scheduled_start": 144,
+    "timestamped_sportsbook_favorite": 144,
+    "unambiguous_kalshi_event_match": 16,
+    "verified_venue_coordinates": 144
+  },
+  "paired_quotes": 128,
+  "pending": 0,
+  "period": [
+    "2026-04-14",
+    "2026-04-20"
+  ],
+  "prediction_lock": {
+    "outcomes_sha256": "40d3eeadc52c9697dea08d8e9f485b9a501cb20780568263c073f609ccc52860",
+    "predictions_sha256": "0dbf1597f93b73e326d65c7448a77cbdc2e380804bad00d57eaf0d2c1cff8b05",
+    "study_sha256": "1b2b58bf6737b48e20c28bc1b7e105e5cd09803a157548cec7f3265ca1f58249"
+  },
+  "published_backtest_picks": 0,
+  "scored": [],
+  "self_tests": "passed",
+  "settled": 0,
+  "study_id": "GD-C1.0-BT1.0",
+  "verified_net_return": null,
+  "voids_or_pushes": 0,
+  "wilson95": null
+}

@@ -1,0 +1,2394 @@
+{
+  "blind_sha256": "896a9940b32b6ec72c69bc5fe75677d265fe57eb9ecea2d45e2d8b79262b8992",
+  "records": [
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "mlb-ESPN-401814932",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.85 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141840CHCPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.86 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141840KCDET",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.86 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141840SFCIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.86 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141840WSHPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.86 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141905LAANYY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.87 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141915MIAATL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.88 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141940BOSMIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.90 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "mlb-ESPN-401814941",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.90 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141940TORMIL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.90 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR141945CLESTL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.90 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR142010COLHOU",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.92 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR142140SEASD",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.98 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXMLBGAME-26APR142140TEXATH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": [
+        "Sun at 0.98 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR142210NYMLAD",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401814947",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151315CLESTL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151340BOSMIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151840CHCPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151840KCDET",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151840SFCIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151840WSHPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151905LAANYY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151915MIAATL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401814956",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR151940TORMIL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR152010COLHOU",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR152140SEASD",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR152140TEXATH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR152210NYMLAD",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161235WSHPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161240SFCIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161310KCDET",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161335LAANYY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161340TORMIL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401814967",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161505TEXATH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR161810BALCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR162010COLHOU",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR162040SEASD",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171420NYMCHC",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171810BALCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171840ATLPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171845TBPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171845SFWSH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171905KCNYY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171910MILMIA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR171915DETBOS",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR172010CINMIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR172010STLHOU",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR172040LADCOL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR172138SDLAA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401814982",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR172140TEXSEA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401814985",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181335KCNYY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181410CINMIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181420NYMCHC",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181605TBPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181605SFWSH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401814997",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181610DETBOS",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181610MILMIA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181810BALCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181910STLHOU",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181915ATLPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR181915TEXSEA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR182010LADCOL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401815000",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR182138SDLAA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191335KCNYY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191335SFWSH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191335TBPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191340BALCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191340MILMIA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191410CINMIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191410STLHOU",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191420NYMCHC",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191510LADCOL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401815012",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191607SDLAA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191610TEXSEA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "mlb-ESPN-401815015",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191335DETBOS",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR191920ATLPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201110DETBOS",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201810HOUCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201840CINTB",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201840STLMIA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201845ATLWSH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201940BALKC",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR201940PHICHC",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR202040LADCOL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR202138TORLAA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXMLBGAME-26APR202140ATHSEA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "mlb",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNBAGAME-26APR14MIACHA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": [
+        "Sun at 0.89 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNBAGAME-26APR14PORPHX",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": [
+        "Sun at 0.99 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR15ORLPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "nba-ESPN-401866756",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR17CHAORL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-17T13:00:00+00:00",
+      "day": "2026-04-17",
+      "disposition": "missing_data",
+      "id": "nba-ESPN-401866759",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR18TORCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR18MINDEN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "nba-ESPN-401869189",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR18HOULAL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR19PHIBOS",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR19PHXOKC",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR19ORLDET",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "nba-ESPN-401869194",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR20TORCLE",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "nba-ESPN-401869387",
+      "missing": [
+        "frozen_name_syllables",
+        "paired_quote_before_cutoff",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "unambiguous_kalshi_event_match",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXNBAGAME-26APR20MINDEN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nba",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14NJBOS",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.87 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14CARNYI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.87 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14MTLPHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.87 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14WSHCBJ",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.87 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14ANAMIN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.91 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14WPGUTA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.95 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14COLCGY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.95 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14PITSTL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.97 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-14T13:00:00+00:00",
+      "day": "2026-04-14",
+      "disposition": "timing_exclusion",
+      "id": "KXNHLGAME-26APR14LAVAN",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": [
+        "Sun at 0.99 deg of sign \u2014 sankranti zone"
+      ]
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR15DALBUF",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR15NYRTB",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR15DETFLA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR15TOROTT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR15SJCHI",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-15T13:00:00+00:00",
+      "day": "2026-04-15",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR15SEAVGK",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR16STLUTA",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR16ANANSH",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR16SJWPG",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR16LACGY",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR16VANEDM",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-16T13:00:00+00:00",
+      "day": "2026-04-16",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR16SEACOL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR18OTTCAR",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR18MINDAL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-18T13:00:00+00:00",
+      "day": "2026-04-18",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR18PHIPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR19LACOL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR19MTLTB",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR19BOSBUF",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-19T13:00:00+00:00",
+      "day": "2026-04-19",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR19UTAVGK",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR20PHIPIT",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR20OTTCAR",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR20MINDAL",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    },
+    {
+      "ask": null,
+      "cutoff_utc": "2026-04-20T13:00:00+00:00",
+      "day": "2026-04-20",
+      "disposition": "missing_data",
+      "id": "KXNHLGAME-26APR20ANAEDM",
+      "missing": [
+        "frozen_name_syllables",
+        "timestamped_scheduled_start",
+        "timestamped_sportsbook_favorite",
+        "verified_venue_coordinates"
+      ],
+      "selected_team_id": null,
+      "sport": "nhl",
+      "timing_flags": []
+    }
+  ],
+  "self_tests": "passed",
+  "study_id": "GD-C1.0-BT1.0",
+  "study_sha256": "1b2b58bf6737b48e20c28bc1b7e105e5cd09803a157548cec7f3265ca1f58249"
+}
