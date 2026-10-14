@@ -1,0 +1,45 @@
+{
+  "annotations_sha256": "493d206e1b6c9d9c58895fb3789139cc1d715e93c764f7ffdd0ab9049afe8bec",
+  "blind_sha256": "55f39e234ba95a8eb956d0dd992231f2f684ff2fc1be218fb9d0d2794f751273",
+  "counts": {
+    "KXMLBGAME_events": 21,
+    "KXNBAGAME_events": 46,
+    "KXNFLGAME_events": 31,
+    "KXNHLGAME_events": 97,
+    "paired_quotes": 182,
+    "scoreboard_games": 195
+  },
+  "end": "2026-10-13",
+  "errors": [],
+  "historical_cutoff": {
+    "market_positions_last_updated_ts": "2026-08-15T00:00:00Z",
+    "market_settled_ts": "2026-08-15T00:00:00Z",
+    "orders_updated_ts": "2026-09-30T00:00:00Z",
+    "trades_created_ts": "2026-08-15T00:00:00Z"
+  },
+  "outcomes_sha256": "9e45fa3089f793c0e2fc8b0c3c21e2f4830474df8ec761970cfb7aab775f9e2b",
+  "retrieved_at_utc": "2026-10-14T13:36:42.929458+00:00",
+  "sports": "mlb,nba,nhl,nfl",
+  "start": "2026-10-01",
+  "study_id": "GD-C1.0-BT1.1",
+  "study_sha256": "15c6e2a7e40e519a10fc6d29912532f04c15a1ed6dfd9f098ebe88e5a4e93253",
+  "unmatched_kalshi_events": {
+    "KXNBAGAME": [
+      "KXNBAGAME-26OCT04UTADEN",
+      "KXNBAGAME-26OCT06DENUTA",
+      "KXNBAGAME-26OCT06NOPOKC",
+      "KXNBAGAME-26OCT08NOPMIA",
+      "KXNBAGAME-26OCT08WASNYK",
+      "KXNBAGAME-26OCT10DETWAS",
+      "KXNBAGAME-26OCT12BKNWAS",
+      "KXNBAGAME-26OCT12LIOPOR",
+      "KXNBAGAME-26OCT12SASUTA"
+    ],
+    "KXNFLGAME": [
+      "KXNFLGAME-26OCT04INDWAS",
+      "KXNFLGAME-26OCT04JACCIN",
+      "KXNFLGAME-26OCT11NYGWAS",
+      "KXNFLGAME-26OCT11PHIJAC"
+    ]
+  }
+}
