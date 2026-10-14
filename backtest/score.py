@@ -5,7 +5,7 @@ import html
 import json
 import math
 from pathlib import Path
-from common import STUDY, save, digest
+from common import STUDY, ROOT, save, digest
 
 def wilson(hits,n):
     if n<5: return None
@@ -23,11 +23,23 @@ def settle(record,outcome):
     if (result=='yes')!=bool(winner): return 'DISCREPANCY'
     return 'HIT' if result=='yes' else 'MISS'
 
+def expansion_gate(records,manifest):
+    g=STUDY['expansion_gate']; structural=set(g['structural_exclusions'])
+    gaps=collections.Counter(x for r in records for x in r['missing'] if x not in structural)
+    excluded=sum(bool(set(r['missing'])&structural) for r in records)
+    charted=sum('t0' in r for r in records)
+    frac=excluded/len(records) if records else 1.0
+    passed=(not manifest['errors'] and bool(records) and sum(gaps.values())<=g['evidence_gaps_allowed']
+            and frac<=g['max_structural_exclusion_fraction'] and charted>=g['min_games_reaching_charts'])
+    return {'version':g['version'],'passed':passed,'evidence_gaps':dict(gaps),'structural_exclusions':excluded,
+            'structural_fraction':round(frac,4),'games_reaching_charts':charted,'collector_errors':len(manifest['errors'])}
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('folder'); args=ap.parse_args(); folder=Path(args.folder)
     lock=json.loads((folder/'prediction_lock.json').read_text())
     assert digest(folder/'predictions.json')==lock['predictions_sha256'], 'Predictions changed after lock'
     assert digest(folder/'outcomes.json')==lock['outcomes_sha256'], 'Outcomes changed after collection'
+    assert digest(ROOT/'study.json')==lock['study_sha256'], 'Study changed after prediction lock'
     prediction=json.loads((folder/'predictions.json').read_text()); outcomes=json.loads((folder/'outcomes.json').read_text()); manifest=json.loads((folder/'manifest.json').read_text())
     records=prediction['records']; picks=[r for r in records if r['disposition']=='pick']; counts=collections.Counter(); scored=[]
     for r in picks:
@@ -35,7 +47,8 @@ def main():
         baseline=dict(r,selected_team_id=r['favorite_team_id']); baseline_result=settle(baseline,outcomes.get(r['id'],{}))
         scored.append({'id':r['id'],'sport':r['sport'],'result':result,'market_favorite_result':baseline_result,'ask':r['ask'],'gross_price_proxy':(1 if result=='HIT' else 0)-r['ask'] if result in ('HIT','MISS') else None,'net_return':None})
     n=counts['HIT']+counts['MISS']; missing=collections.Counter(x for r in records for x in r['missing']); dispositions=collections.Counter(r['disposition'] for r in records)
-    summary={'study_id':STUDY['study_id'],'period':[manifest['start'],manifest['end']],'self_tests':prediction['self_tests'],'games':len(records),'paired_quotes':manifest['counts'].get('paired_quotes',0),'dispositions':dict(dispositions),'missing_inputs':dict(missing),'collector_errors':manifest['errors'],'published_backtest_picks':len(picks),'settled':n,'hits':counts['HIT'],'misses':counts['MISS'],'pending':counts['PENDING'],'voids_or_pushes':counts['PUSH_OR_VOID'],'discrepancies':counts['DISCREPANCY'],'hit_rate':counts['HIT']/n if n else None,'wilson95':wilson(counts['HIT'],n),'favorite_baseline_hits':sum(s['market_favorite_result']=='HIT' for s in scored),'favorite_baseline_settled':sum(s['market_favorite_result'] in ('HIT','MISS') for s in scored),'gross_price_proxy':sum(s['gross_price_proxy'] for s in scored if s['gross_price_proxy'] is not None) if n else None,'verified_net_return':None,'gpt_performance':None,'claude_performance':None,'full_period_ready':not manifest['errors'] and bool(records) and not missing,'prediction_lock':lock,'scored':scored,'limitations':[STUDY['scope'],'Missing-input counts can overlap timing exclusions. Missing-data days are not successful full-method abstentions.','Current historical schedules may incorporate post-event corrections. Final scores are held separately; this does not erase historical hindsight in metadata.','GPT/Claude comparison requires separately locked outcome-hidden model selections; none have been generated.','Candle-close quotes cannot establish historical executable depth or fees. Gross figures, when present, are price-proxy simulations only.']}
+    gate=expansion_gate(records,manifest)
+    summary={'study_id':STUDY['study_id'],'period':[manifest['start'],manifest['end']],'self_tests':prediction['self_tests'],'games':len(records),'paired_quotes':manifest['counts'].get('paired_quotes',0),'dispositions':dict(dispositions),'missing_inputs':dict(missing),'collector_errors':manifest['errors'],'published_backtest_picks':len(picks),'settled':n,'hits':counts['HIT'],'misses':counts['MISS'],'pending':counts['PENDING'],'voids_or_pushes':counts['PUSH_OR_VOID'],'discrepancies':counts['DISCREPANCY'],'hit_rate':counts['HIT']/n if n else None,'wilson95':wilson(counts['HIT'],n),'favorite_baseline_hits':sum(s['market_favorite_result']=='HIT' for s in scored),'favorite_baseline_settled':sum(s['market_favorite_result'] in ('HIT','MISS') for s in scored),'gross_price_proxy':sum(s['gross_price_proxy'] for s in scored if s['gross_price_proxy'] is not None) if n else None,'verified_net_return':None,'gpt_performance':None,'claude_performance':None,'full_period_ready':gate['passed'],'expansion_gate':gate,'bt10_gate_would_pass':not manifest['errors'] and bool(records) and not missing,'prediction_lock':lock,'scored':scored,'limitations':[STUDY['scope'],'Missing-input counts can overlap timing exclusions. Missing-data days are not successful full-method abstentions.','Current historical schedules may incorporate post-event corrections. Final scores are held separately; this does not erase historical hindsight in metadata.','GPT/Claude comparison requires separately locked outcome-hidden model selections; none have been generated.','Candle-close quotes cannot establish historical executable depth or fees. Gross figures, when present, are price-proxy simulations only.']}
     save(folder/'summary.json',summary)
     def table(mapping):
         return '<table>'+''.join('<tr><th>'+html.escape(str(k))+'</th><td>'+html.escape(str(v))+'</td></tr>' for k,v in mapping.items())+'</table>'

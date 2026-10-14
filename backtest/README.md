@@ -1,5 +1,12 @@
 # GD-C1.0 retrospective backtest
 
+> **BT1.1 (2026-10-14).** Audit, fixes and evidence rules are in
+> [AUDIT-BT1.1.md](AUDIT-BT1.1.md). Summary: venues and name syllables are now
+> annotated; MLB scheduled starts come from Kalshi event tickers; the sportsbook
+> favorite (and NBA/NHL/NFL schedule) needs the optional, paid `collect_odds.py`
+> stage (`ODDS_API_KEY` secret, not enabled). Pushes no longer trigger the
+> six-month expansion. BT1.1 output goes to `data/backtest/bt1.1/`.
+
 This is a separate, outcome-blind, resumable backfill and replay job. It does not
 change the daily relay or either AI's scheduled task. No trades or API keys.
 

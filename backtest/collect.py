@@ -4,6 +4,7 @@ Never performs authenticated or trading calls. Cached responses make reruns resu
 Final ESPN records and Kalshi settlement metadata are segregated from blind inputs.
 """
 import argparse
+import collections
 import hashlib
 import json
 import os
@@ -68,19 +69,46 @@ def quote(candles, cutoff):
             value = obj.get('close')
             if value is None: return None
             # Archived schema: dollar strings. Live legacy schema: integer cents.
-            return float(value) / 100 if isinstance(value, (int,float)) else float(value)
+            # A non-integer JSON number is ambiguous (dollars or cents?): reject it.
+            if isinstance(value, bool): return None
+            if isinstance(value, int): return value / 100
+            if isinstance(value, float): return value / 100 if value.is_integer() and value >= 1 else None
+            return float(value)
         bid, ask = dollars(c.get('yes_bid',{})), dollars(c.get('yes_ask',{}))
         if bid is not None and ask is not None and 0 < bid <= ask < 1:
             return {'bid':bid, 'ask':ask, 'mid':(bid+ask)/2, 'as_of_utc':datetime.fromtimestamp(ts,timezone.utc).isoformat(), 'provenance':'historical 1-minute candle close; depth unavailable'}
     return None
 
-def match_market(market, competitors):
+# ESPN abbreviation -> Kalshi ticker code. Only codes seen in relay data
+# (data/latest/kalshi_*.json, 2026-10-14) are listed; unverified codes stay
+# unmatched and are logged in the manifest instead of being guessed.
+ALIASES = {'nba': {'GS': 'GSW', 'NY': 'NYK', 'SA': 'SAS'}, 'mlb': {'CHW': 'CWS'}}
+ET = ZoneInfo('America/New_York')
+STRUCTURAL = {'unambiguous_kalshi_event_match', 'already_started_at_cutoff', 'duplicate_matchup',
+              'doubleheader', 'schedule_conflict', 'market_not_listed_before_cutoff',
+              'no_sportsbook_line_at_cutoff'}
+
+def codes(sport, team):
+    a = team.get('abbreviation', '')
+    return {a, ALIASES.get(sport, {}).get(a, a)}
+
+def mlb_ticker_start(ticker):
+    """MLB event tickers embed the scheduled first pitch as HHMM US/Eastern.
+    The ticker is fixed when the event is created, so with created_time <= cutoff it is
+    timestamped pre-cutoff schedule evidence. Verified against ESPN on 80/84 pilot games."""
+    m = re.search(r'-(\d{2}[A-Z]{3}\d{2})(\d{4})[A-Z]', ticker)
+    if not m: return None
+    local = datetime.strptime(m.group(1) + m.group(2), '%y%b%d%H%M').replace(tzinfo=ET)
+    return local.astimezone(timezone.utc)
+
+def match_market(market, competitors, sport=None):
     label = market.get('yes_sub_title','').casefold().strip()
     matches = []
     for c in competitors:
         t = c['team']; names = [t.get(k,'').casefold().strip() for k in ('displayName','shortDisplayName','name','location','abbreviation')]
         market_abbreviation=market.get('ticker','').rsplit('-',1)[-1].casefold()
-        if (label and label in names) or (market_abbreviation and market_abbreviation==t.get('abbreviation','').casefold()): matches.append(str(t['id']))
+        codeset={x.casefold() for x in codes(sport,t)} if sport else {t.get('abbreviation','').casefold()}
+        if (label and label in names) or (market_abbreviation and market_abbreviation in codeset): matches.append(str(t['id']))
     return matches[0] if len(matches)==1 else None
 
 def main():
@@ -91,6 +119,9 @@ def main():
     manifest={'study_id':STUDY['study_id'],'start':args.start,'end':args.end,'retrieved_at_utc':datetime.now(timezone.utc).isoformat(),'errors':[], 'counts':{},'study_sha256':digest(ROOT/'study.json'),'annotations_sha256':digest(ROOT/'annotations.json')}
     annotations=json.loads((ROOT/'annotations.json').read_text())
     blind, outcomes = [], {}
+    odds_path=out/'sportsbook_evidence.json'
+    odds=json.loads(odds_path.read_text()) if odds_path.exists() else {}
+    if odds_path.exists(): manifest['sportsbook_evidence_sha256']=digest(odds_path)
     try: manifest['historical_cutoff']=get(BASE+'/historical/cutoff',cache)
     except Exception as exc: manifest['errors'].append({'stage':'historical_cutoff','error':str(exc)})
     min_ts=int(datetime.combine(start,datetime.min.time(),PT).timestamp())
@@ -101,6 +132,7 @@ def main():
             manifest['counts'][series+'_events']=len(event_index)
         except Exception as exc:
             manifest['errors'].append({'stage':series+'_events','error':str(exc)}); event_index={}
+        matched_tickers=set()
         day=start
         while day<=end:
             cutoff=datetime.combine(day,datetime.min.time(),PT)+timedelta(hours=STUDY['cutoff_hour']); cutoff_ts=int(cutoff.timestamp())
@@ -115,7 +147,7 @@ def main():
                 comps=g.get('competitions',[])
                 if len(comps)!=1 or len(comps[0].get('competitors',[]))!=2: continue
                 comp=comps[0]; teams=comp['competitors']; teamids={str(c['team']['id']) for c in teams}
-                abb={c['team'].get('abbreviation','') for c in teams}
+                abb=[codes(sport,c['team']) for c in teams]
                 # Exact ticker suffix abbreviation match only; ambiguity stays missing.
                 possible=[]
                 for ticker,e in event_index.items():
@@ -123,8 +155,9 @@ def main():
                     # MLB inserts scheduled HHMM in the event ticker. Use the
                     # date only for discovery, never derive a chart start from it.
                     suffix=re.sub(r'^.*?-\d{2}[A-Z]{3}\d{2}\d*', '',ticker)
-                    if any(a+b==suffix for a in abb for b in abb if a!=b): possible.append(ticker)
+                    if any(a+b==suffix for a in abb[0] for b in abb[1]) or any(a+b==suffix for a in abb[1] for b in abb[0]): possible.append(ticker)
                 ticker=possible[0] if len(possible)==1 else None
+                if ticker: matched_tickers.add(ticker)
                 key=ticker or sport+'-ESPN-'+str(g['id'])
                 start_utc=g['date']; ann=annotations.get('events',{}).get(key,{})
                 venue=comp.get('venue',{}); v=annotations.get('venues',{}).get(str(venue.get('id')),{})
@@ -134,13 +167,23 @@ def main():
                 if v.get('verified') and v.get('source') and all(k in v for k in ('lat','lon')):
                     row['coordinates']={'lat':v['lat'],'lon':v['lon'],'source':v['source']}
                 else: row['missing'].append('verified_venue_coordinates')
-                if ann.get('schedule_source') and ann.get('schedule_available_at_utc') and utc(ann['schedule_available_at_utc'])<=cutoff and ann.get('scheduled_start_utc')==start_utc:
-                    row['schedule_verified_at_cutoff']=True
-                else: row['missing'].append('timestamped_scheduled_start')
+                if ann.get('schedule_source') and ann.get('schedule_available_at_utc') and utc(ann['schedule_available_at_utc'])<=cutoff and ann.get('scheduled_start_utc') and utc(ann['scheduled_start_utc'])==utc(start_utc):
+                    row['schedule_verified_at_cutoff']=True; row['schedule_provenance']=ann['schedule_source']+' available '+ann['schedule_available_at_utc']
+                else:
+                    row['missing'].append('timestamped_scheduled_start')
+                    if ann.get('scheduled_start_utc') and ann.get('schedule_available_at_utc') and utc(ann['schedule_available_at_utc'])<=cutoff and utc(ann['scheduled_start_utc'])!=utc(start_utc):
+                        row['missing'].append('schedule_conflict'); row['schedule_conflict']={'evidence_start_utc':ann['scheduled_start_utc'],'espn_start_utc':start_utc}
+                ev=odds.get(sport+'-ESPN-'+str(g['id']),{})
+                if ev.get('no_line_at_cutoff'): row_flags=['no_sportsbook_line_at_cutoff']
+                else: row_flags=[]
+                if not ann.get('sportsbook_source') and ev and not row_flags: ann={**ev,**ann}
                 if ann.get('sportsbook_source') and ann.get('sportsbook_available_at_utc') and utc(ann['sportsbook_available_at_utc'])<=cutoff and ann.get('sportsbook_favorite_team_id') in teamids:
                     row['sportsbook_favorite_team_id']=ann['sportsbook_favorite_team_id']
-                else: row['missing'].append('timestamped_sportsbook_favorite')
-                if set(ann.get('syllables_by_team_id',{}))==teamids:
+                else: row['missing'].extend(row_flags or ['timestamped_sportsbook_favorite'])
+                decl={str(c['team']['id']):annotations.get('teams',{}).get(sport+':'+str(c['team']['id'])) for c in teams}
+                if all(d and d.get('rule') and d.get('canonical_name')==c['team']['displayName'] for d,c in zip(decl.values(),teams)):
+                    row['syllables_by_team_id']={tid:d['words'] for tid,d in decl.items()}; row['syllable_rule']=sorted({d['rule'] for d in decl.values()})
+                elif set(ann.get('syllables_by_team_id',{}))==teamids:
                     row['syllables_by_team_id']=ann['syllables_by_team_id']
                 else: row['missing'].append('frozen_name_syllables')
                 markets=[]
@@ -151,7 +194,7 @@ def main():
                 markets=list({m['ticker']:m for m in markets}.values())
                 settled={}
                 for m in markets:
-                    tid=match_market(m,teams)
+                    tid=match_market(m,teams,sport)
                     if not tid: continue
                     settled[tid]={'ticker':m['ticker'],'result':m.get('result'),'status':m.get('status'),'settlement_value_dollars':m.get('settlement_value_dollars'),'settlement_ts':m.get('settlement_ts')}
                     if not m.get('open_time') or utc(m['open_time'])>cutoff or not m.get('created_time') or utc(m['created_time'])>cutoff: continue
@@ -168,10 +211,32 @@ def main():
                     price=quote(candles or [],cutoff_ts)
                     if price:
                         row['quotes'][tid]={**price,'market_ticker':m['ticker'],'created_time':m['created_time'],'open_time':m['open_time'],'rules_primary':m.get('rules_primary'),'rules_provenance':'current market metadata; original rule version not guaranteed'}
+                created=[utc(m['created_time']) for m in markets if m.get('created_time')]
+                if ticker and sport=='mlb' and 'timestamped_scheduled_start' in row['missing'] and created:
+                    tstart=mlb_ticker_start(ticker)
+                    if tstart and min(created)<=cutoff:
+                        if tstart==utc(start_utc):
+                            row['missing'].remove('timestamped_scheduled_start'); row['schedule_verified_at_cutoff']=True
+                            row['schedule_provenance']='Kalshi event ticker HHMM (US/Eastern), event created '+min(created).isoformat()+'; equals current ESPN start'
+                        else:
+                            row['missing'].append('schedule_conflict'); row['schedule_conflict']={'ticker_start_utc':tstart.isoformat(),'espn_start_utc':start_utc}
+                if ticker and markets and not any(m.get('created_time') and utc(m['created_time'])<=cutoff for m in markets):
+                    row['missing'].append('market_not_listed_before_cutoff')
                 if set(row['quotes'])!=teamids: row['missing'].append('paired_quote_before_cutoff')
                 row['missing']=sorted(set(row['missing'])); blind.append(row)
                 outcomes[key]={'espn_final':comp.get('status',{}).get('type',{}).get('completed',False),'teams':{str(c['team']['id']):{'score':c.get('score'),'winner':c.get('winner')} for c in teams},'kalshi':settled}
             day+=timedelta(days=1)
+        unmatched=sorted(set(event_index)-matched_tickers)
+        if unmatched: manifest.setdefault('unmatched_kalshi_events',{})[series]=unmatched
+    # Duplicate events: one Kalshi event claimed by two ESPN games, or two ESPN
+    # games between the same teams on one day (doubleheaders). Reject all copies.
+    by_ticker=collections.Counter(r['id'] for r in blind if not r['id'].split('-')[1:2]==['ESPN'])
+    by_pair=collections.Counter((r['sport'],r['day'],tuple(sorted(t['id'] for t in r['teams']))) for r in blind)
+    for r in blind:
+        if by_ticker.get(r['id'],0)>1: r['missing'].append('duplicate_matchup')
+        if by_pair[(r['sport'],r['day'],tuple(sorted(t['id'] for t in r['teams'])))]>1: r['missing'].append('doubleheader')
+        r['missing']=sorted(set(r['missing']))
+        r['structural_exclusions']=sorted(set(r['missing'])&STRUCTURAL)
     save(out/'blind_inputs.json',blind); save(out/'outcomes.json',outcomes)
     manifest['counts']['scoreboard_games']=len(blind); manifest['counts']['paired_quotes']=sum(len(r['quotes'])==2 for r in blind)
     manifest['blind_sha256']=digest(out/'blind_inputs.json'); manifest['outcomes_sha256']=digest(out/'outcomes.json')

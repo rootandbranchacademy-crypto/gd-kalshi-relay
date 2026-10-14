@@ -1,15 +1,65 @@
 {
-  "study_id": "GD-C1.0-BT1.0",
+  "study_id": "GD-C1.0-BT1.1",
   "engine_sha256": "35bd6397a98c8dd2db5f4b1e97bb9fb89c25e7b4f32d8c95553d42382e99656f",
-  "period": ["2026-04-14", "2026-10-13"],
-  "pilot": ["2026-04-14", "2026-04-20"],
+  "period": [
+    "2026-04-14",
+    "2026-10-13"
+  ],
+  "pilot": [
+    "2026-04-14",
+    "2026-04-20"
+  ],
   "timezone": "America/Los_Angeles",
   "cutoff_hour": 6,
   "quote_max_age_seconds": 10800,
   "daily_pick_limit": 4,
   "favorite_min_mid": 0.55,
   "max_spread": 0.05,
-  "ranking": ["supporting_families_desc", "agree5_desc", "agree10_desc", "abs_median5_desc", "event_ticker_asc"],
-  "strict_gates": ["timestamped_scheduled_start", "verified_venue_coordinates", "timestamped_sportsbook_favorite", "frozen_name_syllables", "quote_before_cutoff", "market_existed_before_cutoff"],
-  "scope": "Retrospective engine replay; not actual GPT/Claude prospective performance. Ranking/tie-break and cutoff are BT1.0 implementation choices. No fees or depth assumed. Current historical schedule/odds records are not proof of their 6 a.m. versions. No automatic six-month expansion unless pilot validation passes."
+  "ranking": [
+    "supporting_families_desc",
+    "agree5_desc",
+    "agree10_desc",
+    "abs_median5_desc",
+    "event_ticker_asc"
+  ],
+  "strict_gates": [
+    "timestamped_scheduled_start",
+    "verified_venue_coordinates",
+    "timestamped_sportsbook_favorite",
+    "frozen_name_syllables",
+    "quote_before_cutoff",
+    "market_existed_before_cutoff"
+  ],
+  "scope": "Retrospective engine replay; not actual GPT/Claude prospective performance. Ranking/tie-break and cutoff are BT1.0 implementation choices. No fees or depth assumed. Current historical schedule/odds records are not proof of their 6 a.m. versions. No automatic six-month expansion: a push never expands; only a manual dispatch with full_if_ready=true after the BT1.1 gate passes.",
+  "supersedes": "GD-C1.0-BT1.0 (pilot 2026-04-14..20 committed under BT1.0; zero predictions were scored under it)",
+  "evidence_sources": {
+    "scheduled_start": [
+      "annotation with availability timestamp",
+      "MLB only: Kalshi event ticker HHMM (US/Eastern) with event created_time <= cutoff, must equal current ESPN start",
+      "collect_odds.py snapshot commence_time (requires ODDS_API_KEY)"
+    ],
+    "sportsbook_favorite": [
+      "annotation with availability timestamp",
+      "collect_odds.py DraftKings h2h snapshot <= cutoff (requires ODDS_API_KEY)"
+    ],
+    "venue": "annotations.json venues, sourced coordinates",
+    "syllables": "annotations.json teams, rule BT1.1-SYL-1 (backtest/syllables.py)"
+  },
+  "expansion_gate": {
+    "version": "BT1.1",
+    "no_collector_errors": true,
+    "evidence_gaps_allowed": 0,
+    "max_structural_exclusion_fraction": 0.15,
+    "min_games_reaching_charts": 1,
+    "structural_exclusions": [
+      "unambiguous_kalshi_event_match",
+      "already_started_at_cutoff",
+      "duplicate_matchup",
+      "doubleheader",
+      "schedule_conflict",
+      "market_not_listed_before_cutoff",
+      "no_sportsbook_line_at_cutoff"
+    ],
+    "note": "BT1.0 required zero missing inputs of any kind, so a single unmatched ticker or doubleheader blocked expansion forever. BT1.1 keeps every evidence requirement strict (zero gaps) but lets games that are excluded for structural, permanent reasons pass as counted exclusions, capped at 15%."
+  }
 }

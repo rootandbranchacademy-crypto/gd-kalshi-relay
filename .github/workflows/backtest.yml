@@ -12,9 +12,9 @@ on:
         default: '2026-04-20'
         required: true
       full_if_ready:
-        description: Backfill six months only if pilot coverage passes
+        description: Backfill six months only if the BT1.1 pilot gate passes
         type: boolean
-        default: true
+        default: false
   push:
     branches: [main]
     paths:
@@ -35,7 +35,9 @@ jobs:
     env:
       PILOT_START: ${{ inputs.start || '2026-04-14' }}
       PILOT_END: ${{ inputs.end || '2026-04-20' }}
-      FULL_IF_READY: ${{ github.event_name == 'push' || inputs.full_if_ready }}
+      # A push only re-runs the pilot. Six-month expansion needs a manual dispatch.
+      FULL_IF_READY: ${{ github.event_name == 'workflow_dispatch' && inputs.full_if_ready }}
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
       CC: gcc
       CXX: g++
       LDSHARED: gcc -shared
@@ -73,9 +75,10 @@ jobs:
           echo "GD_EPHE=$GITHUB_WORKSPACE/.runtime/ephe" >> "$GITHUB_ENV"
       - name: Pilot collection, outcome-blind replay and locked scoring
         run: |
-          out="data/backtest/${PILOT_START}_${PILOT_END}"
+          out="data/backtest/bt1.1/${PILOT_START}_${PILOT_END}"
           mkdir -p "$out" .backtest-cache
           ln -s "$GITHUB_WORKSPACE/.backtest-cache" "$out/raw"
+          python3 backtest/collect_odds.py --start "$PILOT_START" --end "$PILOT_END" --out "$out"
           python3 backtest/collect.py --start "$PILOT_START" --end "$PILOT_END" --out "$out"
           python3 backtest/replay.py "$out"
           python3 backtest/score.py "$out"
@@ -84,13 +87,14 @@ jobs:
           python3 - <<'PY'
           import json,os,subprocess
           from pathlib import Path
-          folder=Path('data/backtest')/(os.environ['PILOT_START']+'_'+os.environ['PILOT_END'])
+          folder=Path('data/backtest/bt1.1')/(os.environ['PILOT_START']+'_'+os.environ['PILOT_END'])
           ready=json.loads((folder/'summary.json').read_text())['full_period_ready']
           if not ready:
               print('Six-month scoring withheld: pilot coverage gaps. Read summary.json/report.html.')
           elif os.environ['FULL_IF_READY'].lower()=='true':
-              full=Path('data/backtest/2026-04-14_2026-10-13'); full.mkdir(parents=True,exist_ok=True)
+              full=Path('data/backtest/bt1.1/2026-04-14_2026-10-13'); full.mkdir(parents=True,exist_ok=True)
               (full/'raw').symlink_to(Path('.backtest-cache').resolve())
+              subprocess.run(['python3','backtest/collect_odds.py','--start','2026-04-14','--end','2026-10-13','--out',str(full)],check=True)
               subprocess.run(['python3','backtest/collect.py','--start','2026-04-14','--end','2026-10-13','--out',str(full)],check=True)
               subprocess.run(['python3','backtest/replay.py',str(full)],check=True)
               subprocess.run(['python3','backtest/score.py',str(full)],check=True)
