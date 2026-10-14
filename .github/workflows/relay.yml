@@ -8,6 +8,12 @@ on:
     # Evening pass for settling late games.
     - cron: "15 7 * * *"
   workflow_dispatch: {}
+  # Run once whenever the fetcher or this workflow changes (test runs).
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/relay.yml"
 
 permissions:
   contents: write
