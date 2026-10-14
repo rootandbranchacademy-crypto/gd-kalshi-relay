@@ -62,7 +62,7 @@ class FailurePathTests(unittest.TestCase):
     def test_verified_alias_only(self):
         teams=[{'team':{'id':'1','displayName':'Chicago White Sox','abbreviation':'CHW'}},{'team':{'id':'2','displayName':'Tampa Bay Rays','abbreviation':'TB'}}]
         self.assertEqual(match_market({'ticker':'KXMLBGAME-26APR141840CWSTB-CWS','yes_sub_title':'Chicago WS'},teams,'mlb'),'1')
-        self.assertEqual(codes('mlb',{'abbreviation':'ARI'}),{'ARI'})  # unverified code: no guess
+        self.assertEqual(codes('mlb',{'abbreviation':'XYZ'}),{'XYZ'})  # unlisted code: no guess
     def test_mlb_ticker_start_is_eastern_and_dst_aware(self):
         self.assertEqual(mlb_ticker_start('KXMLBGAME-26APR141840CHCPHI'),datetime(2026,4,14,22,40,tzinfo=timezone.utc))
         self.assertEqual(mlb_ticker_start('KXMLBGAME-26NOV031840CHCPHI'),datetime(2026,11,3,23,40,tzinfo=timezone.utc))

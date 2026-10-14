@@ -82,7 +82,7 @@ def quote(candles, cutoff):
 # ESPN abbreviation -> Kalshi ticker code. Only codes seen in relay data
 # (data/latest/kalshi_*.json, 2026-10-14) are listed; unverified codes stay
 # unmatched and are logged in the manifest instead of being guessed.
-ALIASES = {'nba': {'GS': 'GSW', 'NY': 'NYK', 'SA': 'SAS'}, 'mlb': {'CHW': 'CWS'}}
+ALIASES = {'nba': {'GS': 'GSW', 'NY': 'NYK', 'SA': 'SAS'}, 'mlb': {'CHW': 'CWS', 'ARI': 'AZ'}}
 ET = ZoneInfo('America/New_York')
 STRUCTURAL = {'unambiguous_kalshi_event_match', 'already_started_at_cutoff', 'duplicate_matchup',
               'doubleheader', 'schedule_conflict', 'market_not_listed_before_cutoff',

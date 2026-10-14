@@ -1,0 +1,18 @@
+{
+  "study_id": "GD-C1.0-BT-A1",
+  "kind": "APPROXIMATE retrospective cohort. Never merged into GD-C1.0 prospective totals or the BT1.x strict cohort.",
+  "requested": "Brian, chat 2026-10-14 06:17 PDT",
+  "engine_sha256": "35bd6397a98c8dd2db5f4b1e97bb9fb89c25e7b4f32d8c95553d42382e99656f",
+  "period": ["2026-04-14", "2026-10-13"],
+  "sports": ["mlb", "nba", "nhl", "nfl"],
+  "inherited_from": "GD-C1.0-BT1.1 (cutoff 06:00 America/Los_Angeles, quote age <= 3 h, favorite mid >= 0.55, spread <= 0.05, 21 one-minute charts, |total| > 3 in >= 9/11 and >= 15/21, 4 picks/day, mechanical ranking, engine timing filter, BT1.1-SYL-1 syllables, sourced venue coordinates, all structural exclusions)",
+  "relaxations": [
+    "Favorite = higher Kalshi 06:00 candle mid only. GD-C1.0 also required agreement with a sportsbook line; no timestamped sportsbook evidence was used.",
+    "NBA, NHL and NFL scheduled start = current ESPN record, which may contain post-cutoff revisions. MLB keeps strict Kalshi-ticker schedule evidence (conflicts excluded).",
+    "NCAAF excluded (venue research not done)."
+  ],
+  "favorite_min_mid": 0.55,
+  "max_spread": 0.05,
+  "daily_pick_limit": 4,
+  "outcome_rule": "outcomes.json files are not opened until predictions_a1.json and its lock are written and committed."
+}
