@@ -112,11 +112,11 @@ def match_market(market, competitors, sport=None):
     return matches[0] if len(matches)==1 else None
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--start',default=STUDY['pilot'][0]); ap.add_argument('--end',default=STUDY['pilot'][1]); ap.add_argument('--out',required=True)
+    ap=argparse.ArgumentParser(); ap.add_argument('--start',default=STUDY['pilot'][0]); ap.add_argument('--end',default=STUDY['pilot'][1]); ap.add_argument('--out',required=True); ap.add_argument('--sports',default=','.join(SPORTS))
     args=ap.parse_args(); out=Path(args.out); cache=out/'raw'; cache.mkdir(parents=True,exist_ok=True)
     start,end=date.fromisoformat(args.start),date.fromisoformat(args.end)
     assert start<=end and (end-start).days<=183
-    manifest={'study_id':STUDY['study_id'],'start':args.start,'end':args.end,'retrieved_at_utc':datetime.now(timezone.utc).isoformat(),'errors':[], 'counts':{},'study_sha256':digest(ROOT/'study.json'),'annotations_sha256':digest(ROOT/'annotations.json')}
+    manifest={'study_id':STUDY['study_id'],'start':args.start,'end':args.end,'retrieved_at_utc':datetime.now(timezone.utc).isoformat(),'errors':[], 'counts':{},'study_sha256':digest(ROOT/'study.json'),'sports':args.sports,'annotations_sha256':digest(ROOT/'annotations.json')}
     annotations=json.loads((ROOT/'annotations.json').read_text())
     blind, outcomes = [], {}
     odds_path=out/'sportsbook_evidence.json'
@@ -125,7 +125,9 @@ def main():
     try: manifest['historical_cutoff']=get(BASE+'/historical/cutoff',cache)
     except Exception as exc: manifest['errors'].append({'stage':'historical_cutoff','error':str(exc)})
     min_ts=int(datetime.combine(start,datetime.min.time(),PT).timestamp())
+    wanted=args.sports.split(',')
     for sport,(series,path) in SPORTS.items():
+        if sport not in wanted: continue
         try:
             events=paged('/events',{'series_ticker':series,'min_close_ts':min_ts,'limit':200,'with_nested_markets':'false'},'events',cache)
             event_index={e['event_ticker']:e for e in events if ticker_day(e['event_ticker']) and start<=ticker_day(e['event_ticker'])<=end}

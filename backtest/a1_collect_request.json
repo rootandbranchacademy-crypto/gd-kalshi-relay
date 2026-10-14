@@ -1,0 +1,1 @@
+{"study_id": "GD-C1.0-BT-A1", "requested_by": "Brian (chat, 2026-10-14 06:17 PDT)", "period": ["2026-04-14", "2026-10-13"], "sports": ["mlb", "nba", "nhl", "nfl"], "note": "Collection only. Outcomes are written to outcomes.json and are not read until predictions are locked."}
